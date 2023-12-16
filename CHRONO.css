@@ -34,7 +34,8 @@
     font-size: 28px;
     text-decoration: none;
     width: 405px;
-    margin: -33px 0 0 -6px;
+    padding: 5px;
+    margin: -30px 0 0 -6px;
     text-align: center;
     font-weight: bolder;
     text-transform: uppercase;
@@ -87,7 +88,7 @@
 }
 
 .lienCHRONO{
-    color:#1a0935;
+    color:#1a0935 !important;
     text-decoration: none !important;
     display: block;
     margin: 10px auto 5px 0px;
