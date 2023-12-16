@@ -1,0 +1,111 @@
+﻿.containerCHRONO {
+    width: 500px;
+    font-family: 'Arial';
+    color: #1a0935 !important;
+    margin: auto;
+    font-size: 15px;
+}
+
+.borderBotCHRONO {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 11px;
+    border-image-source: linear-gradient(to right, #5F6697, #1a0935);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.titleChrono {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.lozCHRONO {
+    width: 100px;
+}
+
+.nameCHRONO {
+    font-size: 28px;
+    text-decoration: none;
+    width: 405px;
+    margin: -33px 0 0 -6px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #1a0935;
+    background-image: linear-gradient(45deg, #5F6697, #1a0935);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.nameCHRONO:hover {
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+}
+
+.subtitleCHRONO{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: -55px 0 55px 94px;
+    font-size: 10px;
+}
+
+.dateCHRONO{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    border-width: 5px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.descCHRONO{
+    text-align: justify;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.entryCHRONO{
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px 20px 20px;
+    margin-top: 10px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 3px;
+}
+
+.lienCHRONO{
+    color:#1a0935;
+    text-decoration: none !important;
+    display: block;
+    margin: 10px auto 5px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 11px;
+    padding-left: 5px;
+    border-left: 25px solid;
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+}
+
+.lienCHRONO:hover{
+    border-left: 50px solid;
+    filter: saturate(3);
+}
+
+body {
+    background-color: #FAD8A1;
+}
