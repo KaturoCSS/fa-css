@@ -75,6 +75,7 @@
     text-align: justify;
     font-size: 13px;
     padding-bottom: 10px;
+    line-height: 15px;
 }
 
 .entryCHRONO{
@@ -106,6 +107,14 @@
 .lienCHRONO:hover{
     border-left: 50px solid;
     filter: saturate(3);
+}
+
+.signaCHRONO {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
 }
 
 body {
