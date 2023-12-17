@@ -117,6 +117,17 @@
     padding-left: 40px;
 }
 
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green {background-color: #04AA6D;}
+.waiting {background-color: #ff9800;}
+
 body {
     background-color: #FAD8A1;
 }
