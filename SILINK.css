@@ -1,0 +1,138 @@
+﻿.containerSILINK {
+    width: 500px !important;
+    font-family: 'Arial' !important;
+    color: #1a0935 !important;
+    margin: auto !important;
+    font-size: 15px !important;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.titleSILINK {
+    display: inline-flex;
+    align-items: center;
+    width: 500px;
+}
+
+.lozSILINK {
+    width: 150px;
+}
+
+.nameSILINK {
+    font-size: 40px;
+    text-decoration: none;
+    width: 405px;
+    padding: 5px;
+    margin: -51px 0 0 -11px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #1a0935;
+    background-image: linear-gradient(45deg, #5F6697, #1a0935);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 15px;
+    border-image-source: linear-gradient(to right, #5F6697, #1a0935);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.subtitleSILINK {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: -50px 0 50px 120px;
+    font-size: 13px;
+}
+
+.descSILINK {
+    text-align: justify;
+    font-size: 13px;
+    padding-bottom: 10px;
+    line-height: 15px;
+}
+
+.contentSILINK {
+    color: black;
+}
+
+.lienSILINK {
+    color:#1a0935 !important;
+    text-decoration: none !important;
+    display: block;
+    margin: 10px auto 5px 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 11px;
+    padding-left: 5px;
+    border-left: 25px solid;
+    transition: all 0.25s linear;
+    -webkit-transition: all 0.25s linear;
+}
+
+.lienSILINK:hover {
+    border-left: 50px solid;
+    filter: saturate(3);
+}
+
+.ficheSILINK {
+    color:#1a0935 !important;
+    text-decoration: none !important;
+    margin-left: 5px;
+}
+
+.ficheSILINK:hover {
+    filter: saturate(3);
+}
+
+.tabSILINK {
+    overflow: hidden;
+}
+
+.tabSILINK button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tabSILINK button:hover {
+    filter: opacity(0.5);
+}
+
+.tabSILINK button.active {
+    filter: opacity(0.5) drop-shadow(0 0 0 #1a0935)
+}
+
+.tabContentSILINK {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.picSILINK {
+    height: 40px;
+}
+
+.signaSILINK {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
