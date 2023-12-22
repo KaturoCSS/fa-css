@@ -54,6 +54,16 @@
     font-size: 13px;
 }
 
+.ficheSILINK {
+    color:#1a0935 !important;
+    text-decoration: none !important;
+    margin-left: 5px;
+}
+
+.ficheSILINK:hover {
+    filter: saturate(3);
+}
+
 .descSILINK {
     text-align: justify;
     font-size: 13px;
@@ -83,49 +93,6 @@
 .lienSILINK:hover {
     border-left: 50px solid;
     filter: saturate(3);
-}
-
-.ficheSILINK {
-    color:#1a0935 !important;
-    text-decoration: none !important;
-    margin-left: 5px;
-}
-
-.ficheSILINK:hover {
-    filter: saturate(3);
-}
-
-.tabSILINK {
-    overflow: hidden;
-}
-
-.tabSILINK button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-.tabSILINK button:hover {
-    filter: opacity(0.5);
-}
-
-.tabSILINK button.active {
-    filter: opacity(0.5) drop-shadow(0 0 0 #1a0935)
-}
-
-.tabContentSILINK {
-    display: none;
-    padding: 6px 12px;
-    border-top: none;
-}
-
-.picSILINK {
-    height: 40px;
 }
 
 .signaSILINK {
