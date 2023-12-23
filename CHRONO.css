@@ -114,6 +114,43 @@
     padding-left: 40px;
 }
 
+.moonCHRONO {
+    display: flex;
+    filter: opacity(0.5) drop-shadow(0 0 0 blue);
+    align-items: center;
+    margin: 1em -1em;
+  
+    &:before,
+    &:after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        margin: 0 1em;
+        background: black;
+    }
+}
+
+img.new-moon {
+    height: 15px;
+    content: url("https://i.ibb.co/WVw1PtN/new-moon.png");
+}
+
+img.second-quarter {
+    height: 15px;
+    content: url("https://i.ibb.co/tZgNfx9/middle-moon.png");
+}
+
+img.third-quarter {
+    height: 15px;
+    content: url("https://i.ibb.co/2hbDfBF/third-moon.png");
+}
+
+img.full-moon {
+    height: 15px;
+    content: url("https://i.ibb.co/X2P7302/full-moon.png");
+}
+
+
 .dot {
     height: 10px;
     width: 10px;
