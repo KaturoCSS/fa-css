@@ -47,7 +47,7 @@
     border-top: 0;
 }
 
-.subtitleSILINK {
+.subSILINK {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -142,6 +142,7 @@
 
 .botSILINK {
     border-bottom: 10px solid !important;
+    border-radius: 0px 0px 3px 3px;
 }
 
 .hrSILINK {
@@ -152,10 +153,50 @@
     margin-left: -21px;
 }
 
+.chronoSILINK {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: black;
+    width: 540px;
+    margin-left: -20;
+    padding-top: 5px;
+}
+
+.ccSILINK {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.ccSILINK div {
+    position: absolute; 
+    margin-top:-25px;  
+    width:500px; 
+    height: 0; 
+    overflow: hidden; 
+    transition: all 0.35s linear; 
+    -webkit-transition: all 0.35s linear;
+}
+
+.ccSILINK:hover div {
+    margin-top: -520px; 
+    height: 500px;
+    background-color: #FDEFD9;
+}
+
+.ccLinkSILINK {
+    text-decoration: none;
+    color: black;
+}
+
+.ccLinkSILINK:hover {
+    color: #0C7003;
+}
+
 .signaSILINK {
     padding-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
