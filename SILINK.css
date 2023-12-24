@@ -125,6 +125,7 @@
 .tabSILINK>.tab>[id^="tab"]:checked + label {
     top: 0;
     filter: opacity(0.5) drop-shadow(0 0 0 #1a0935);
+    -webkit-filter: opacity(0.5) drop-shadow(0 0 0 #1a0935);
     transition: 10ms;
 }
 
