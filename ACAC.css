@@ -7,7 +7,8 @@
     padding: 20px;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    margin-top: 50px !important;
+    position: relative;
+    top: 50px !important;
 }
 
 .contentACAC {
@@ -51,7 +52,8 @@
     font-size: 15px;
     text-transform: uppercase;
     cursor: pointer;
-    margin-top: -90px;
+    position: relative;
+    top: -66px;
     background: rgba(255, 255, 255, 0.6);
     filter: brightness(0.5);
     -webkit-filter: brightness(0.5);
@@ -63,12 +65,11 @@
     position: absolute;
     left: 0;
     opacity:0;
-    margin-top: -45px;
-    margin-left: -5px;
+    top: -25px;
+    left: -5px;
 }
 
 .tabsACAC>.tabACAC>[id^="aca-tab"]:checked + label {
-    top: 0;
     transition: 10ms;
     filter: brightness(1);
     -webkit-filter: brightness(1);
@@ -112,7 +113,8 @@
 }
 
 .signaACAC {
-    padding-top: 10px;
+    position: relative;
+    top: 60px;
     height: 30px;
     display: block;
     margin-left: auto;
