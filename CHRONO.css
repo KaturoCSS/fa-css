@@ -16,14 +16,18 @@
     border-top: 0;
 }
 
-.titleChrono {
-    display: inline-flex;
-    align-items: center;
+.CTitleCHRONO {
     width: 500px;
     background: rgba(255, 255, 255, 0.6);
     padding: 20px;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.titleCHRONO {
+    display: inline-flex;
+    align-items: center;
+    width: 500px;
 }
 
 .lozCHRONO {
@@ -80,17 +84,23 @@
     -moz-text-fill-color: transparent;
 }
 
-.subtitleCHRONO{
+.subCHRONO {
     display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    font-size: 13px;
-    position: absolute;
-    left: 38em;
-    margin-top: -66px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.dateCHRONO{
+.infoCHRONO {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #1a0935;
+    margin-top: -45px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+.dateCHRONO {
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 10px;
@@ -99,11 +109,55 @@
     padding-bottom: 5px;
 }
 
-.descCHRONO{
+.descCHRONO {
     text-align: justify;
     font-size: 13px;
     padding-bottom: 10px;
     line-height: 15px;
+}
+
+.entriesCHRONO {
+    width: 600px;
+    max-height: 0px;
+    overflow: hidden; 
+    transition: all 0.35s linear; 
+    -webkit-transition: all 0.35s linear;
+}
+
+input.inputCHRONO {
+    display: none;
+}
+
+input.inputCHRONO:checked ~ .entriesCHRONO {
+    max-height: 500px;
+    overflow: unset;
+}
+                
+.labelCHRONO {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #A889FF 0%, #4A4CB3 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 9px 10px 10px 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    width: fit-content;
+}
+
+.labelCHRONO:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+
+.labelCHRONO:active {
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
 }
 
 .entryCHRONO{
@@ -142,43 +196,6 @@
     margin-right: auto;
     padding-left: 40px;
 }
-
-.moonCHRONO {
-    display: flex;
-    filter: opacity(0.5) drop-shadow(0 0 0 blue);
-    align-items: center;
-    margin: 1em -1em;
-  
-    &:before,
-    &:after {
-        content: "";
-        flex: 1;
-        height: 1px;
-        margin: 0 1em;
-        background: black;
-    }
-}
-
-img.new-moon {
-    height: 15px;
-    content: url("https://i.ibb.co/WVw1PtN/new-moon.png");
-}
-
-img.second-quarter {
-    height: 15px;
-    content: url("https://i.ibb.co/tZgNfx9/middle-moon.png");
-}
-
-img.third-quarter {
-    height: 15px;
-    content: url("https://i.ibb.co/2hbDfBF/third-moon.png");
-}
-
-img.full-moon {
-    height: 15px;
-    content: url("https://i.ibb.co/X2P7302/full-moon.png");
-}
-
 
 .dot {
     height: 10px;
