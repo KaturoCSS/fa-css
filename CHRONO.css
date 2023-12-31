@@ -120,8 +120,6 @@
     width: 600px;
     max-height: 0px;
     overflow: hidden; 
-    transition: all 0.35s linear; 
-    -webkit-transition: all 0.35s linear;
 }
 
 input.inputCHRONO {
@@ -129,7 +127,7 @@ input.inputCHRONO {
 }
 
 input.inputCHRONO:checked ~ .entriesCHRONO {
-    max-height: 500px;
+    max-height: 10000px;
     overflow: unset;
 }
                 
