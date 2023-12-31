@@ -28,6 +28,8 @@
 
 .lozCHRONO {
     width: 130px;
+    position: relative;
+    z-index: 1;
 }
 
 .nameCHRONO {
