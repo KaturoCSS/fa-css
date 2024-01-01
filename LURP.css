@@ -9,6 +9,7 @@
     width: 560px;
     height: 600px;
     padding: 20px;
+    color: #1a0935 !important;
     background: #090d00;
     color: rgba(0, 0, 0, 0.75); 
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
