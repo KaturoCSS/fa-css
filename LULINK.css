@@ -336,6 +336,9 @@ border-top: 10px solid blue;
     filter: drop-shadow(0 0 1px #5F6697);
 }
 
+.subLULINK a { 
+    color: #1a0935;
+}
 
 .subLULINK a:hover {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
