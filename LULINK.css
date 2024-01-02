@@ -1,47 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .containerLULINK {
-    width: 500px !important;
-    font-family: 'Arial' !important;
-    margin: auto !important;
-    font-size: 15px !important;
-    background: rgba(255, 255, 255, 0.6);
-    padding: 20px;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border-top: 10px solid blue;
+width: 500px !important;
+font-family: 'Arial' !important;
+margin: auto !important;
+font-size: 15px !important;
+background: rgba(255, 255, 255, 0.6);
+padding: 20px;
+border-radius: 3px;
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+border-top: 10px solid blue;
 }
 
 .titleLULINK {
     display: inline-flex;
     align-items: center;
     width: 500px;
-}
 
-.lozLULINK {
-    width: 150px;
-}
+    img {
+        width: 150px;
+    }
 
-.nameLULINK {
-    font-size: 40px;
-    text-decoration: none;
-    width: 405px;
-    padding-bottom: 13px;
-    padding-top: 20px;
-    margin: -46px 0 0 -11px;
-    text-align: center;
-    font-weight: bolder;
-    text-transform: uppercase;
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 15px;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
+    a {
+        font-size: 40px;
+        text-decoration: none;
+        width: 405px;
+        padding-bottom: 13px;
+        padding-top: 20px;
+        margin: -46px 0 0 -11px;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 15px;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+    }
 }
 
 .subLULINK {
@@ -50,11 +53,11 @@
     text-transform: uppercase;
     margin: -50px 0 50px 120px;
     font-size: 13px;
-}
 
-.ficheLULINK {
-    text-decoration: none !important;
-    margin-left: 5px;
+    a {
+        text-decoration: none !important;
+        margin-left: 5px;
+    }
 }
 
 .ficheLULINK:hover {
@@ -85,13 +88,13 @@
     align-items: center;
 }
 
-.tabLULINK{
+.tabsLULINK li{
     float: left;
     display: block;
     margin-left: -10px;
 }
 
-.tabsLULINK .tabLULINK>input[type="radio"] {
+.tabsLULINK li>input[type="radio"] {
     position: absolute;
     border: 0px;
     width: 100%;
@@ -99,7 +102,7 @@
     visibility: hidden;
 }
 
-.tabsLULINK .tabLULINK>label {
+.tabsLULINK li>label {
     display: block;
     padding: 6px 21px;
     font-size: 12px;
@@ -117,12 +120,12 @@
     opacity:0;
 }
 
-.tabsLULINK>.tabLULINK>[id^="tab"]:checked + label {
+.tabsLULINK>li>[id^="tab"]:checked + label {
     top: 0;
     transition: 10ms;
 }
 
-.tabsLULINK>.tabLULINK>[id^="tab"]:checked ~ [id^="tab-content"] {
+.tabsLULINK>li>[id^="tab"]:checked ~ [id^="tab-content"] {
     z-index: 1;/* or display: block; */
     opacity: 1;
 }
@@ -186,16 +189,114 @@
     color: black;
 }
 
-/* COLORS Luciole */
+.tags a {	
+    display: inline-block;
+    height: 21px;
+    line-height: 21px;
+    position: relative;
+    margin: 4px 0px 8px 15px;
+    padding: 0 10px 0 12px;
+    background: #777;	
+    -webkit-border-bottom-right-radius: 3px;	
+    border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;	
+    border-top-right-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 11px;
+    text-transform: lowercase;
+    float: none;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    font-weight: bold;
+    } 
 
-.luluNameLULINK {
-    background-color: #1a0935 !important;
-    background-image: linear-gradient(45deg, #5F6697, #1a0935);
-    border-image-source: linear-gradient(to right, #5F6697, #1a0935);
-    font-size: 34px !important;
+.tags a:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-color: transparent #3243A5 transparent transparent;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;		
+    }
+
+.tags a:after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    float: left;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    -moz-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+    -webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+    box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
 }
 
-.tabsLULINK>.tabLULINK>[id^="tab"]:checked + label {
+.tags a:hover {background:#777;}	
+.tags a:hover:before {border-color:transparent #777 transparent transparent;}
+
+.tags a.pnj {background: black;}
+.tags a.pnj:before {border-color: transparent black transparent transparent;}
+
+.tags a.family {background: #f58220;}
+.tags a.family:before {border-color: transparent #f58220 transparent transparent;}
+
+.tags a.friend {background: #97c224;}
+.tags a.friend:before {border-color: transparent #97c224 transparent transparent;}
+
+.tags a.hate {background: #de3f3e;}
+.tags a.hate:before {border-color: transparent #de3f3e transparent transparent;}
+
+.tags a.love {background: #ec008c;}
+.tags a.love:before {border-color: transparent #ec008c transparent transparent;}
+
+.tags a.neutral {background: #00a6df;}
+.tags a.neutral:before {border-color: transparent #00a6df transparent transparent;}
+
+.tags a:hover {background:#666 !important}	
+.tags a:hover:before {border-color:transparent #666 transparent transparent !important}
+
+.tags a:hover {background:#777;}	
+.tags a:hover:before {border-color:transparent #777 transparent transparent;}
+
+.relNameLULINK {	
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.relLULINK {
+    display: inline-flex;
+}
+
+/* COLORS Luciole */
+
+.titleLULINK {
+    .luluLink {
+        background-color: #1a0935 !important;
+        background-image: linear-gradient(45deg, #5F6697, #1a0935);
+        border-image-source: linear-gradient(to right, #5F6697, #1a0935);
+        font-size: 34px !important;
+        content: "https://lgdc-warriors.forums-actifs.com/t11421-luciole-nuageuse-i-never-knew-daylight-could-be-so-violent"
+    }
+
+    .luluLink:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+}
+
+.tabsLULINK>li>[id^="tab"]:checked + label {
     filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
     -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
 }
@@ -209,11 +310,8 @@
     filter: drop-shadow(0 0 1px #5F6697);
 }
 
-.luluNameLULINK:hover {
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-}
 
-.ficheLULINK:hover {
+.subLULINK a:hover {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     background-size: 100%;
     background-repeat: repeat;
