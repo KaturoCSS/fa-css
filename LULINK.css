@@ -271,11 +271,6 @@ border-top: 10px solid blue;
     cursor: pointer;
 }
 
-.relNameLULINK:hover {
-    filter: opacity(0.5);
-    -webkit-filter: opacity(0.5);
-}
-
 .relLULINK {
     display: inline-flex;
     align-items: center;
@@ -350,6 +345,10 @@ border-top: 10px solid blue;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+}
+
+.relNameLULINK:hover {
+    color: #5F6697;
 }
 
 .ccLinkLULINK:hover {
