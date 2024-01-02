@@ -43,6 +43,7 @@ border-top: 10px solid blue;
         border-left: 0;
         border-right: 0;
         border-top: 0;
+        padding-bottom: 10px;
     }
 }
 
@@ -50,7 +51,7 @@ border-top: 10px solid blue;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    margin: -50px 0 50px 120px;
+    margin: -65px 0 50px 120px;
     font-size: 13px;
 
     a {
@@ -172,7 +173,7 @@ border-top: 10px solid blue;
 
 .ccLULINK:hover div {
     margin-top: -523px; 
-    height: 500px;
+    height: 520px;
     background-color: #FDEFD9;
 }
 
@@ -270,8 +271,14 @@ border-top: 10px solid blue;
     cursor: pointer;
 }
 
+.relNameLULINK:hover {
+    filter: opacity(0.5);
+    -webkit-filter: opacity(0.5);
+}
+
 .relLULINK {
     display: inline-flex;
+    align-items: center;
 }
 
 .spoiler-checkbox
