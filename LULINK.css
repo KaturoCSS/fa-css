@@ -14,6 +14,7 @@ border-top: 10px solid blue;
 }
 
 .titleLULINK {
+    font-family: 'Bebas Neue', sans-serif;
     display: inline-flex;
     align-items: center;
     width: 500px;
@@ -23,10 +24,8 @@ border-top: 10px solid blue;
     }
 
     a {
-        font-size: 40px;
         text-decoration: none;
         width: 405px;
-        padding-bottom: 13px;
         padding-top: 20px;
         margin: -46px 0 0 -11px;
         text-align: center;
@@ -63,13 +62,6 @@ border-top: 10px solid blue;
 .ficheLULINK:hover {
     -webkit-filter: saturate(3);
     filter: saturate(3);
-}
-
-.descLULINK {
-    text-align: justify;
-    font-size: 13px;
-    padding-bottom: 10px;
-    line-height: 15px;
 }
 
 .contentLULINK {
@@ -190,6 +182,7 @@ border-top: 10px solid blue;
 }
 
 .tags a {	
+    cursor: default;
     display: inline-block;
     height: 21px;
     line-height: 21px;
@@ -274,21 +267,52 @@ border-top: 10px solid blue;
     font-weight: bolder;
     text-transform: uppercase;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 .relLULINK {
     display: inline-flex;
 }
 
+.spoiler-checkbox
+{
+    display: none;
+}
+
+.RBLULINK .descLULINK
+{
+    overflow: hidden;
+    max-height: 0px;
+    transition:max-height 0.1s ease-out;
+}
+
+.spoiler-checkbox:checked ~ .descLULINK{
+    display: block;
+    height: auto;
+    max-height: 100vh;
+
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    100% {
+        opacity: 1;
+        height: 100%;
+    }
+}
+
 /* COLORS Luciole */
 
 .titleLULINK {
     .luluLink {
+        font-size: 40px !important;
         background-color: #1a0935 !important;
         background-image: linear-gradient(45deg, #5F6697, #1a0935);
         border-image-source: linear-gradient(to right, #5F6697, #1a0935);
-        font-size: 34px !important;
-        content: "https://lgdc-warriors.forums-actifs.com/t11421-luciole-nuageuse-i-never-knew-daylight-could-be-so-violent"
     }
 
     .luluLink:hover {
