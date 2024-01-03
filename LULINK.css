@@ -21,6 +21,7 @@ border-top: 10px solid blue;
 
     img {
         width: 150px;
+        position: relative;
     }
 
     a {
@@ -179,7 +180,6 @@ border-top: 10px solid blue;
 
 .ccLinkLULINK {
     text-decoration: none;
-    color: black;
 }
 
 .tags a {	
@@ -307,6 +307,17 @@ border-top: 10px solid blue;
     }
 }
 
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green {background-color: #04AA6D;}
+.orange {background-color: #ff9800;}
+
 /* COLORS Luciole */
 
 .titleLULINK {
@@ -356,6 +367,10 @@ border-top: 10px solid blue;
 
 .ccLinkLULINK:hover {
     color: #5F6697;
+}
+
+.ccLinkLULINK {
+    color: #1a0935;
 }
 
 .luluDC {
