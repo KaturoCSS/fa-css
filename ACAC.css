@@ -224,6 +224,7 @@
 }
 
 /* ACAC V1 */
+
 .containerACAC {
     width: 500px !important;
     font-family: 'Arial' !important;
@@ -340,7 +341,7 @@
 
 .signaACAC {
     position: relative;
-    top: 60px;
+    top: -10em;
     height: 30px;
     display: block;
     margin-left: auto;
