@@ -187,21 +187,17 @@ input.inputCHRONO:checked ~ .entriesCHRONO {
     filter: saturate(3);
 }
 
+.alignCHRONO {
+    display: inline-flex;
+    align-items: start;  
+}
+
 .signaCHRONO {
     padding-top: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
+    content: url(https://i.ibb.co/mDqjG4c/plague-lulu-face.png);
+    height: 30px;
 }
-
-.dot {
-    height: 10px;
-    width: 10px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.green {background-color: #04AA6D;}
-.orange {background-color: #ff9800;}
