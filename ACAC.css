@@ -1,5 +1,7 @@
 /* ACAC V2 */
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap');
+
 .cACAC {
     margin: 0 auto;
     display: block;
@@ -14,7 +16,7 @@
         flex-wrap: wrap;
         position: relative;
         list-style: none;
-        background-color: #fff;
+        background-color: #D3C1B0;
         margin: 40px 0;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
@@ -35,10 +37,10 @@
         }
         
         .tsunami {
-            color: #80A7D0;
+            color: #E0FFFF;
 
             a {
-                color: #80A7D0;
+                color: #E0FFFF;
             }
         }
     }
@@ -116,52 +118,51 @@
     }
 
     .tab:checked + label {
-        background-color: #fff;
-        box-shadow: 0 -1px 0 #fff inset;
+        background-color: #C4A4846B;
+        box-shadow: 0 1px 0 #C4A4846B inset;
         cursor: default;
     }
 
     .tab:checked + label:hover {
-        box-shadow: 0 -1px 0 #fff inset;
-        background-color: #fff;
+        box-shadow: 0 -1px 0 #D3C1B0 inset;
+        background-color: #D3C1B0;
     }
 
     .tab + label {
-        box-shadow: 0 -1px 0 #eee inset;
+        box-shadow: 0 -1px 0 #C4A484 inset;
         border-radius: 6px 6px 0 0;
         cursor: pointer;
         display: block;
         text-decoration: none;
-        color: #333;
+        color: #5c2b00;
         flex-grow: 3;
         text-align: center;
-        background-color: #f2f2f2;
+        background-color: #C4A484;
         user-select: none;
-        text-align: center;
         transition: 0.3s background-color ease, 0.3s box-shadow ease;
         height: 50px;
         box-sizing: border-box;
         padding: 15px;
+        font-family: 'Caveat', cursive;
+        font-size: 20px;
     }
 
     .tab + label:hover {
-        background-color: #f9f9f9;
-        box-shadow: 0 1px 0 #f4f4f4 inset;
+        background-color: #D3C1B0;
+        box-shadow: 0 1px 0 #D3C1B0 inset;
     }
 
     .tab__content {
         min-height: 300px;
-        max-height: 500px;
         overflow: auto;
         padding: 10px 25px;
-        background-color: transparent;
+        background-color: #C4A4846B;
         position: absolute;
         width: 100%;
         z-index: -1;
         opacity: 0;
         left: 0;
         transform: translateY(-3px);
-        border-radius: 6px;
 
         img {
             display: block;
@@ -170,13 +171,11 @@
         }
 
         div {
-            text-transform: uppercase;
-            font-weight: bold;
+            font-family: 'Indie Flower', cursive;
             margin-top: 10px;
             border-width: 5px;
-            font-size: 20px;
-            padding-bottom: 5px;
-            border-bottom: 10px solid;
+            font-size: 25px;
+            border-bottom: 2px dotted;
         }
 
         a {
@@ -199,7 +198,7 @@
         }
 
         p {
-            color: #484848 !important;
+            color: #5c2b00 !important;
             text-align: justify;
             font-size: 13px;
             padding-bottom: 10px;
@@ -208,18 +207,27 @@
         }
     }
 
-    .vine {
-        position: absolute;
-        height: 400px;
-        right: 18em;
-        content: url("https://i.ibb.co/hHNcVN6/pngwing-com-2.png");
+    .leaves-bottom {
+        width: 600px;
+        content: url(https://i.ibb.co/g7R53t9/leaves-1.png);
+        margin-top: -5em;
     }
 
     .leaves {
-        position: absolute;
-        height: 400px;
-        left: 20em;
-        content: url("https://i.ibb.co/8bZ9swf/pngwing-com-3.png");
+        width: 600px;
+        content: url(https://i.ibb.co/6R0Pcht/leaves-invert.png);
+        margin-bottom: -5em;
+    }
+
+    .signACAC {
+        position: relative;
+        top: -10em;
+        height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        content: url(https://i.ibb.co/mDqjG4c/plague-lulu-face.png);
+        padding-bottom: 60px;
     }
 }
 
