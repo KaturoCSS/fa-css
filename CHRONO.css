@@ -1,22 +1,20 @@
 ﻿.containerCHRONO {
     width: 500px !important;
     font-family: 'Arial' !important;
-    color: #1a0935 !important;
     margin: auto !important;
     font-size: 15px !important;
+
+    input {
+        display: none;
+    }
+
+    input:checked ~ .entriesCHRONO {
+        max-height: 10000px;
+        overflow: unset;
+    }
 }
 
-.borderBotCHRONO {
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 11px;
-    border-image-source: linear-gradient(to right, #6770b2, #1a0935);
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-}
-
-.CTitleCHRONO {
+.headerCHRONO {
     width: 500px;
     background: rgba(255, 255, 255, 0.6);
     padding: 20px;
@@ -28,134 +26,95 @@
     display: inline-flex;
     align-items: center;
     width: 500px;
-}
 
-.lozCHRONO {
-    width: 130px;
-    position: relative;
-    z-index: 1;
-}
+    img {
+        width: 130px;
+        position: relative;
+        z-index: 1;
+    }
 
-.nameCHRONO {
-    font-size: 34px;
-    text-decoration: none;
-    width: 405px;
-    padding-bottom: 13px;
-    padding-top: 20px;
-    margin: -58px 0 0 -11px;
-    text-align: center;
-    font-weight: bolder;
-    line-height: 0.8em;
-    text-transform: uppercase;
-    background-color: #1a0935;
-    background-image: linear-gradient(45deg, #6770b2, #1a0935);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 15px;
-    border-image-source: linear-gradient(to right, #6770b2, #1a0935);
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-}
-
-.nameCHRONO:hover {
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-}
-
-.ficheCHRONO {
-    color:#1a0935 !important;
-    text-decoration: none !important;
-    margin-left: 5px;
-}
-
-.ficheCHRONO:hover {
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    a {
+        font-size: 34px;
+        text-decoration: none;
+        width: 405px;
+        padding-bottom: 13px;
+        padding-top: 20px;
+        margin: -58px 0 0 -11px;
+        text-align: center;
+        font-weight: bolder;
+        line-height: 0.8em;
+        text-transform: uppercase;
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 15px;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+    }
 }
 
 .subCHRONO {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
 
-.infoCHRONO {
-    text-transform: uppercase;
-    font-size: 13px;
-    color: #1a0935;
-    margin-top: -45px;
-    padding-bottom: 10px;
-    align-self: flex-end;
-    margin-right: 50px;
-}
+    div {
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-top: -45px;
+        padding-bottom: 10px;
+        align-self: flex-end;
+        margin-right: 50px;
+    }
+    
+    a {
+        text-decoration: none !important;
+        margin-left: 5px;
+    }
 
-.dateCHRONO {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 10px;
-    border-width: 5px;
-    font-size: 20px;
-    padding-bottom: 5px;
-}
+    a:hover {
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
 
-.descCHRONO {
-    text-align: justify;
-    font-size: 13px;
-    padding-bottom: 10px;
-    line-height: 15px;
+    label {
+        display: inline-block;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        will-change: box-shadow,transform;
+        padding: 9px 10px 10px 10px;
+        border-radius: 6px;
+        color: #fff;
+        font-size: 18px;
+        text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+        transition: box-shadow 0.15s ease,transform 0.15s ease;
+        width: fit-content;
+    }
+
+    label:hover {
+        transform: translateY(-2px);
+    }
+
+    label:active {
+        transform: translateY(2px);
+    }
 }
 
 .entriesCHRONO {
     width: 600px;
     max-height: 0px;
     overflow: hidden; 
-}
-
-input.inputCHRONO {
-    display: none;
-}
-
-input.inputCHRONO:checked ~ .entriesCHRONO {
-    max-height: 10000px;
-    overflow: unset;
-}
-                
-.labelCHRONO {
-    display: inline-block;
-    outline: 0;
-    border: 0;
-    cursor: pointer;
-    will-change: box-shadow,transform;
-    background: radial-gradient( 100% 100% at 100% 0%, #A889FF 0%, #4A4CB3 100% );
-    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
-    padding: 9px 10px 10px 10px;
-    border-radius: 6px;
-    color: #fff;
-    font-size: 18px;
-    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
-    transition: box-shadow 0.15s ease,transform 0.15s ease;
-    width: fit-content;
-}
-
-.labelCHRONO:hover {
-    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
-    transform: translateY(-2px);
-}
-
-.labelCHRONO:active {
-    box-shadow: inset 0px 3px 7px #3c4fe0;
-    transform: translateY(2px);
 }
 
 .entryCHRONO{
@@ -165,32 +124,115 @@ input.inputCHRONO:checked ~ .entriesCHRONO {
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     border-radius: 3px;
-}
 
-.lienCHRONO{
-    color:#1a0935 !important;
-    text-decoration: none !important;
-    display: block;
-    margin: 10px auto 5px 0px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: bold;
-    line-height: 11px;
-    padding-left: 5px;
-    border-left: 25px solid;
-    transition: all 0.25s linear;
-    -webkit-transition: all 0.25s linear;
-}
+    div {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px;
+        border-width: 5px;
+        font-size: 20px;
+        padding-bottom: 5px;
+        border: 10px solid;
+        border-image-slice: 1;
+        border-width: 11px;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+    }
 
-.lienCHRONO:hover{
-    border-left: 50px solid;
-    filter: saturate(3);
+    p {
+        text-align: justify;
+        font-size: 13px;
+        padding-bottom: 10px;
+        line-height: 15px;
+        margin-top: 0px;
+    }
+
+    a {
+        text-decoration: none !important;
+        display: block;
+        margin: 10px auto 5px 0px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 11px;
+        padding-left: 5px;
+        border-left: 25px solid;
+        transition: all 0.25s linear;
+        -webkit-transition: all 0.25s linear;
+    }
+
+    a:hover{
+        border-left: 50px solid;
+        filter: saturate(3);
+    }
 }
 
 .alignCHRONO {
     display: inline-flex;
     align-items: start;  
 }
+
+/* LULU COLORS */
+
+.containerCHRONO {
+    color: #1a0935;
+}
+
+.titleCHRONO {
+
+    a {
+        background-color: #1a0935;
+        background-image: linear-gradient(45deg, #6770b2, #1a0935);
+        border-image-source: linear-gradient(to right, #6770b2, #1a0935);
+    }
+
+    a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+}
+
+.subCHRONO {
+
+    div {
+        color: #1a0935;
+    }
+
+    a {
+        color:#1a0935 !important;
+    }
+
+    a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    label {
+        background: radial-gradient( 100% 100% at 100% 0%, #A889FF 0%, #4A4CB3 100% );
+        box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    }
+
+    label:hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    }
+
+    label:active {
+        box-shadow: inset 0px 3px 7px #3c4fe0;
+    }
+
+}
+
+.entryCHRONO {
+
+    div {
+        border-image-source: linear-gradient(to right, #6770b2, #1a0935);
+    }
+
+    a {
+        color:#1a0935 !important;
+    }
+}
+
+/* SIGNATURE */
 
 .signaCHRONO {
     padding-top: 10px;
