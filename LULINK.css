@@ -247,6 +247,7 @@
 /* COLORS Luciole */
 
 .containerLULINK.lulu {
+    color: #1a0935;
     border-top: 10px solid #1a0935;
 
     hr {
@@ -308,68 +309,69 @@
 /* COLORS LOKI */
 
 .containerLULINK.loki {
-border-top: 10px solid #259a49;
-
-hr {
-    border-color: #259a49;     
-}
-
-ul>li>[id^="tab"]:checked + label {
-    filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%);
-    -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%);
-}
-
-.title a {
-    font-size: 40px !important;
-    background-color: #259a49 !important;
-    background-image: linear-gradient(45deg, #76c38f, #259a49);
-    border-image-source: linear-gradient(to right, #76c38f, #259a49);
-}
-
-.title:hover a {
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-}
-
-.sub a { 
-    color: #259a49;
-}
-
-.sub a:hover {
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    background-size: 100%;
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-.content {
-    img {
-        filter: drop-shadow(0 0 1px #76c38f);
-    }
-
-    img:hover {
-        filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
-        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
-    }
+    color: #0c5121;
+    border-top: 10px solid #259a49;
 
     hr {
-        border-color: #259a49;
+        border-color: #259a49;     
     }
-}
 
-.chronoLULINK {
+    ul>li>[id^="tab"]:checked + label {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%);
+    }
 
-    div {
+    .title a {
+        font-size: 40px !important;
+        background-color: #259a49 !important;
+        background-image: linear-gradient(45deg, #76c38f, #259a49);
+        border-image-source: linear-gradient(to right, #76c38f, #259a49);
+    }
+
+    .title:hover a {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    .sub a { 
         color: #259a49;
     }
 
-    a:hover {
-        color: #76c38f;
+    .sub a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
     }
 
-}
+    .content {
+        img {
+            filter: drop-shadow(0 0 1px #76c38f);
+        }
+
+        img:hover {
+            filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+        }
+
+        hr {
+            border-color: #259a49;
+        }
+    }
+
+    .chronoLULINK {
+
+        div {
+            color: #259a49;
+        }
+
+        a:hover {
+            color: #76c38f;
+        }
+
+    }
 }
 
 
