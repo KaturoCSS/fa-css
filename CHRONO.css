@@ -232,6 +232,65 @@
     }
 }
 
+/* LOKI COLORS */
+
+.containerCHRONO.loki {
+    color: #01200a;
+}
+
+.titleCHRONO.loki {
+
+    a {
+        background-color: #259a49;
+        background-image: linear-gradient(45deg, #259a49, #76c38f);
+        border-image-source: linear-gradient(to right, #259a49, #76c38f);
+    }
+
+    a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+}
+
+.subCHRONO.loki {
+
+    div {
+        color: #259a49;
+    }
+
+    a {
+        color:#259a49 !important;
+    }
+
+    a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    label {
+        background: radial-gradient( 100% 100% at 100% 0%, #76c38f 0%, #259a49 100% );
+        box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    }
+
+    label:hover {
+        box-shadow: 0px 4px 8px rgba(35, 66, 45, 0.4), 0px 7px 13px -3px rgba(35, 66, 45, 0.3), inset 0px -3px 0px hsl(131, 49%, 47%);
+    }
+
+    label:active {
+        box-shadow: inset 0px 3px 7px #3c4fe0;
+    }
+
+}
+
+.entryCHRONO.loki {
+
+    div {
+        border-image-source: linear-gradient(to right, #259a49, #76c38f);
+    }
+
+    a {
+        color:#259a49 !important;
+    }
+}
+
 /* SIGNATURE */
 
 .signaCHRONO {
