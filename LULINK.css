@@ -1,229 +1,235 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .containerLULINK {
-width: 500px !important;
-font-family: 'Arial' !important;
-margin: auto !important;
-font-size: 15px !important;
-background: rgba(255, 255, 255, 0.6);
-padding: 20px;
-border-radius: 3px;
-box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-border-top: 10px solid blue;
-}
+    width: 500px !important;
+    font-family: 'Arial' !important;
+    margin: auto !important;
+    font-size: 15px !important;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-top: 10px solid blue;
 
-.titleLULINK {
-    font-family: 'Bebas Neue', sans-serif;
-    display: inline-flex;
-    align-items: center;
-    width: 500px;
-
-    img {
-        width: 150px;
-        position: relative;
+    hr {
+        border: none;
+        border-bottom: 10px solid yellow;
+        border-radius: 0px 0px 3px 3px;
+        width: 541px;
+        position: absolute;
+        margin-left: -21px;
     }
 
-    a {
-        text-decoration: none;
-        width: 405px;
-        padding-top: 20px;
-        margin: -46px 0 0 -11px;
-        text-align: center;
-        font-weight: bolder;
+    .title {
+        font-family: 'Bebas Neue', sans-serif;
+        display: inline-flex;
+        align-items: center;
+        width: 500px;
+
+        img {
+            width: 150px;
+            position: relative;
+        }
+
+        a {
+            text-decoration: none;
+            width: 405px;
+            padding-top: 20px;
+            margin: -46px 0 0 -11px;
+            text-align: center;
+            font-weight: bolder;
+            text-transform: uppercase;
+            background-size: 100%;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+            border: 10px solid;
+            border-image-slice: 1;
+            border-width: 15px;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            padding-bottom: 10px;
+        }
+    }
+
+    .sub {
+        display: flex;
+        justify-content: center;
         text-transform: uppercase;
-        background-size: 100%;
-        background-repeat: repeat;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        -moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-        border: 10px solid;
-        border-image-slice: 1;
-        border-width: 15px;
-        border-left: 0;
-        border-right: 0;
-        border-top: 0;
-        padding-bottom: 10px;
-    }
-}
+        margin: -65px 0 50px 120px;
+        font-size: 13px;
 
-.subLULINK {
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    margin: -65px 0 50px 120px;
-    font-size: 13px;
-
-    a {
-        text-decoration: none !important;
-        margin-left: 5px;
-    }
-}
-
-.ficheLULINK:hover {
-    -webkit-filter: saturate(3);
-    filter: saturate(3);
-}
-
-.contentLULINK {
-    height: 600px;
-}
-
-.picLULINK {
-    height: 40px;
-}
-
-.tabsLULINK{
-    display: inline-flex;
-    position: relative;
-    width: 440px !important;
-    justify-content: center;
-    align-items: center;
-}
-
-.tabsLULINK li{
-    float: left;
-    display: block;
-    margin-left: -10px;
-}
-
-.tabsLULINK li>input[type="radio"] {
-    position: absolute;
-    border: 0px;
-    width: 100%;
-    height: 5em;
-    visibility: hidden;
-}
-
-.tabsLULINK li>label {
-    display: block;
-    padding: 6px 21px;
-    font-size: 12px;
-    text-transform: uppercase;
-    cursor: pointer;
-    position: relative;
-}
-
-.tabsLULINK .tabContentLULINK {
-    z-index: 0;
-    padding: 25px;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    opacity:0;
-}
-
-.tabsLULINK>li>[id^="tab"]:checked + label {
-    top: 0;
-    transition: 10ms;
-}
-
-.tabsLULINK>li>[id^="tab"]:checked ~ [id^="tab-content"] {
-    z-index: 1;/* or display: block; */
-    opacity: 1;
-}
-
-.tabContentLULINK {
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: 400px;
-    margin-top: 65px;
-    font-size: 13px;
-    text-align: justify;
-}
-
-.botLULINK {
-    border-width: 10px !important;
-    border-radius: 0px 0px 3px 3px;
-}
-
-.hrLULINK {
-    border: none;
-    border-bottom: 5px solid green;
-    width: 541px;
-    position: absolute;
-    margin-left: -21px;
-}
-
-.chronoLULINK {
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-    color: black;
-    width: 540px;
-    margin-left: -20px;
-    padding-top: 5px;
-}
-
-.ccLULINK {
-    position: relative;
-    z-index: 1;
-    margin-top: 30px;
-}
-
-.ccLULINK div {
-    position: absolute; 
-    margin-top:-25px;  
-    width:500px; 
-    height: 0; 
-    overflow: hidden; 
-    transition: all 0.35s linear; 
-    -webkit-transition: all 0.35s linear;
-}
-
-.ccLULINK:hover div {
-    margin-top: -523px; 
-    height: 530px;
-    background-color: #FDEFD9;
-}
-
-.ccLinkLULINK {
-    text-decoration: none;
-}
-
-.relNameLULINK {	
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
-    cursor: pointer;
-}
-
-.relLULINK {
-    display: inline-flex;
-    align-items: center;
-}
-
-.spoiler-checkbox
-{
-    display: none;
-}
-
-.RBLULINK .descLULINK
-{
-    overflow: hidden;
-    max-height: 0px;
-    transition:max-height 0.1s ease-out;
-}
-
-.spoiler-checkbox:checked ~ .descLULINK{
-    display: block;
-    height: auto;
-    max-height: 100vh;
-
-}
-
-@keyframes open {
-    0% {
-        opacity: 0;
-        height: 0;
+        a {
+            text-decoration: none !important;
+            margin-left: 5px;
+        }
     }
 
-    100% {
-        opacity: 1;
-        height: 100%;
+    .ficheLULINK:hover {
+        -webkit-filter: saturate(3);
+        filter: saturate(3);
+    }
+
+    .content {
+        height: 600px;
+
+        ul {
+            display: inline-flex;
+            position: relative;
+            width: 440px !important;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul li{
+            float: left;
+            display: block;
+            margin-left: -10px;
+        }
+
+        ul li>input[type="radio"] {
+            position: absolute;
+            border: 0px;
+            width: 100%;
+            height: 5em;
+            visibility: hidden;
+        }
+
+        ul li>label {
+            display: block;
+            padding: 6px 21px;
+            font-size: 12px;
+            text-transform: uppercase;
+            cursor: pointer;
+            position: relative;
+        }
+
+        ul .tabContentLULINK {
+            z-index: 0;
+            padding: 25px;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            opacity:0;
+        }
+
+        ul>li>[id^="tab"]:checked + label {
+            top: 0;
+            transition: 10ms;
+        }
+
+        ul>li>[id^="tab"]:checked ~ [id^="tab-content"] {
+            z-index: 1;/* or display: block; */
+            opacity: 1;
+        }
+
+        img {
+            height: 40px;
+        }
+
+        hr {
+            border-width: 5px;
+            border-radius: 0px;
+        }
+
+        ul>li>div {
+            input {
+                display: none;
+            }
+
+            input:checked ~ p {
+                display: block;
+                height: auto;
+                max-height: 100vh;
+            }
+
+            span {
+                display: inline-flex;
+                align-items: center;
+            }
+
+            label>span {
+                font-family: 'Bebas Neue', sans-serif;
+                font-size: 25px;
+                font-weight: bolder;
+                text-transform: uppercase;
+                text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+                cursor: pointer;
+            }
+
+            p {
+                overflow: hidden;
+                max-height: 0px;
+                transition: max-height 0.1s ease-out;
+            }
+        }
+    }
+
+    .tabContentLULINK {
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 400px;
+        margin-top: 65px;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .chronoLULINK {
+        position: relative;
+        z-index: 1;
+        margin-top: 30px;
+
+        span {
+            display: flex;
+            justify-content: center;
+            text-transform: uppercase;
+            color: black;
+            width: 540px;
+            margin-left: -20px;
+            padding-top: 5px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 25px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+            cursor: pointer;
+        }
+
+        div {
+            position: absolute; 
+            margin-top:-25px;  
+            width:500px; 
+            height: 0; 
+            overflow: hidden; 
+            transition: all 0.35s linear; 
+            -webkit-transition: all 0.35s linear;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+
+    .chronoLULINK:hover div {
+        margin-top: -523px; 
+        height: 530px;
+        background-color: #FDEFD9;
+    }
+
+    @keyframes open {
+        0% {
+            opacity: 0;
+            height: 0;
+        }
+
+        100% {
+            opacity: 1;
+            height: 100%;
+        }
     }
 }
 
@@ -240,38 +246,95 @@ border-top: 10px solid blue;
 
 /* COLORS Luciole */
 
-.titleLULINK {
-    .luluLink {
+.containerLULINK.lulu {
+    border-top: 10px solid #1a0935;
+
+    hr {
+        border-color: #1a0935;     
+    }
+
+    ul>li>[id^="tab"]:checked + label {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
+    }
+
+    .title a {
         font-size: 40px !important;
         background-color: #1a0935 !important;
         background-image: linear-gradient(45deg, #5F6697, #1a0935);
         border-image-source: linear-gradient(to right, #5F6697, #1a0935);
     }
 
-    .luluLink:hover {
+    .title:hover a {
         background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    .sub a { 
+        color: #1a0935;
+    }
+
+    .sub a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+    .content {
+        img {
+            filter: drop-shadow(0 0 1px #5F6697);
+        }
+
+        img:hover {
+            filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
+            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
+        }
+
+        hr {
+            border-color: #1a0935;
+        }
+    }
+
+    .chronoLULINK {
+        span:hover {
+            color: #5F6697;
+        }
     }
 }
 
-.tabsLULINK>li>[id^="tab"]:checked + label {
-    filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
-    -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
+/* COLORS LOKI */
+
+.containerLULINK.loki {
+border-top: 10px solid #259a49;
+
+hr {
+    border-color: #259a49;     
 }
 
-.picLULINK:hover {
-    filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
-    -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
+ul>li>[id^="tab"]:checked + label {
+    filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%);
+    -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%);
 }
 
-.picLULINK {
-    filter: drop-shadow(0 0 1px #5F6697);
+.title a {
+    font-size: 40px !important;
+    background-color: #259a49 !important;
+    background-image: linear-gradient(45deg, #76c38f, #259a49);
+    border-image-source: linear-gradient(to right, #76c38f, #259a49);
 }
 
-.subLULINK a { 
-    color: #1a0935;
+.title:hover a {
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
 }
 
-.subLULINK a:hover {
+.sub a { 
+    color: #259a49;
+}
+
+.sub a:hover {
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     background-size: 100%;
     background-repeat: repeat;
@@ -281,37 +344,42 @@ border-top: 10px solid blue;
     -moz-text-fill-color: transparent;
 }
 
-.relNameLULINK:hover {
-    color: #5F6697;
+.content {
+    img {
+        filter: drop-shadow(0 0 1px #76c38f);
+    }
+
+    img:hover {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(60deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+    }
+
+    hr {
+        border-color: #259a49;
+    }
 }
 
-.ccLinkLULINK:hover {
-    color: #5F6697;
+.chronoLULINK {
+
+    div {
+        color: #259a49;
+    }
+
+    a:hover {
+        color: #76c38f;
+    }
+
+}
 }
 
-.ccLinkLULINK {
-    color: #1a0935;
-}
-
-.luluDC {
-    color: #1a0935 !important;
-}
-
-.luluLC {
-    color: #5F6697 !important;
-}
-
-.luluBDC {
-    border-color: #1a0935 !important;
-}
 
 /* END COLORS */
 
 .signaLULINK {
-    padding-top: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    content: url("https://i.ibb.co/mDqjG4c/plague-lulu-face.png") !important;
-    height: 30px;
+padding-top: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+content: url("https://i.ibb.co/mDqjG4c/plague-lulu-face.png") !important;
+height: 30px;
 }
