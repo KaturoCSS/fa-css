@@ -275,7 +275,7 @@
     }
 
     label:active {
-        box-shadow: inset 0px 3px 7px #3c4fe0;
+        box-shadow: inset 0px 3px 7px hsl(131, 49%, 47%);
     }
 
 }
