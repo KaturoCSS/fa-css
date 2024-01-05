@@ -267,7 +267,7 @@
 
     label {
         background: radial-gradient( 100% 100% at 100% 0%, #76c38f 0%, #259a49 100% );
-        box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+        box-shadow: 0px 2px 4px rgba(35, 66, 45, 0.4), 0px 7px 13px -3px rgba(35, 66, 45, 0.3), inset 0px -3px 0px hsl(131, 49%, 47%);
     }
 
     label:hover {
@@ -288,6 +288,65 @@
 
     a {
         color:#259a49 !important;
+    }
+}
+
+/* SAUVAGE COLORS */
+
+.containerCHRONO.sauvage {
+    color: #200101;
+}
+
+.titleCHRONO.sauvage {
+
+    a {
+        background-color: #6f0100;
+        background-image: linear-gradient(45deg, #6f0100, #b83d3b);
+        border-image-source: linear-gradient(to right, #6f0100, #b83d3b);
+    }
+
+    a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+}
+
+.subCHRONO.sauvage {
+
+    div {
+        color: #6f0100;
+    }
+
+    a {
+        color:#6f0100 !important;
+    }
+
+    a:hover {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    label {
+        background: radial-gradient( 100% 100% at 100% 0%, #b83d3b 0%, #6f0100 100% );
+        box-shadow: 0px 2px 4px rgba(66, 35, 35, 0.4), 0px 7px 13px -3px rgba(66, 35, 35, 0.3), inset 0px -3px 0px rgba(111, 58, 58, 0.5);
+    }
+
+    label:hover {
+        box-shadow: 0px 4px 8px rgba(66, 35, 35, 0.4), 0px 7px 13px -3px rgba(66, 35, 35, 0.3), inset 0px -3px 0px hsl(0, 49%, 47%);
+    }
+
+    label:active {
+        box-shadow: inset 0px 3px 7px hsl(131, 49%, 47%);
+    }
+
+}
+
+.entryCHRONO.sauvage {
+
+    div {
+        border-image-source: linear-gradient(to right, #6f0100, #b83d3b);
+    }
+
+    a {
+        color:#6f0100 !important;
     }
 }
 
