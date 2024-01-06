@@ -68,11 +68,6 @@
         }
     }
 
-    .ficheLULINK:hover {
-        -webkit-filter: saturate(3);
-        filter: saturate(3);
-    }
-
     .content {
         height: 600px;
 
@@ -107,7 +102,7 @@
             position: relative;
         }
 
-        ul .tabContentLULINK {
+        ul .tab {
             z-index: 0;
             padding: 25px;
             position: absolute;
@@ -168,7 +163,7 @@
         }
     }
 
-    .tabContentLULINK {
+    .tab {
         overflow-x: hidden;
         overflow-y: auto;
         height: 400px;
@@ -177,7 +172,11 @@
         text-align: justify;
     }
 
-    .chronoLULINK {
+    .relation {
+        margin-bottom: -15px;
+    }
+
+    .chrono {
         position: relative;
         z-index: 1;
         margin-top: 30px;
@@ -214,7 +213,7 @@
     }
 
 
-    .chronoLULINK:hover div {
+    .chrono:hover div {
         margin-top: -523px; 
         height: 530px;
         background-color: #FDEFD9;
@@ -299,7 +298,7 @@
         }
     }
 
-    .chronoLULINK {
+    .chrono {
         span:hover {
             color: #5F6697;
         }
@@ -361,7 +360,7 @@
         }
     }
 
-    .chronoLULINK {
+    .chrono {
 
         div {
             color: #259a49;
