@@ -71,6 +71,28 @@
     .content {
         height: 600px;
 
+        small {
+            height: 15px;
+            width: 15px;
+            position: absolute;
+            right: 0%;
+            left: 60%;
+            bottom: 0%;
+            color: white;
+            background-color: red;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            filter: unset !important;
+            -webkit-filter: unset !important;
+            font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+            text-decoration: none;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+            font-weight: bold;
+        }
+
         ul {
             display: inline-flex;
             position: relative;
@@ -284,6 +306,10 @@
     }
 
     .content {
+        small {
+            background-color: #5F6697;
+        }
+
         img {
             filter: drop-shadow(0 0 1px #5F6697);
         }
@@ -319,9 +345,10 @@
         border-color: #259a49;     
     }
 
-    ul>li>[id^="tab"]:checked + label {
-        filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%);
-        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%);
+    ul>li>[id^="tab"]:checked + label>img {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+        
     }
 
     .title a {
@@ -350,6 +377,10 @@
     }
 
     .content {
+        small {
+            background-color: #76c38f;
+        }
+
         img {
             filter: drop-shadow(0 0 1px #76c38f);
         }
