@@ -272,7 +272,7 @@
         border-color: #1a0935;     
     }
 
-    ul>li>[id^="tab"]:checked + label {
+    ul>li>[id^="tab"]:checked + label>img {
         filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
         -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(210deg) brightness(70%);
     }
