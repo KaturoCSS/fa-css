@@ -299,6 +299,10 @@
     }
 
     .chrono {
+        div {
+            color: #1a0935;
+        }
+
         span:hover {
             color: #5F6697;
         }
