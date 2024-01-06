@@ -130,12 +130,22 @@
             opacity:0;
         }
 
-        ul>li>[id^="tab"]:checked + label {
+        ul>li>[id^="tab-lulu"]:checked + label {
             top: 0;
             transition: 10ms;
         }
 
-        ul>li>[id^="tab"]:checked ~ [id^="tab-content"] {
+        ul>li>[id^="tab-lulu"]:checked ~ [id^="tab-content"] {
+            z-index: 1;/* or display: block; */
+            opacity: 1;
+        }
+
+        ul>li>[id^="tab-loki"]:checked + label {
+            top: 0;
+            transition: 10ms;
+        }
+
+        ul>li>[id^="tab-loki"]:checked ~ [id^="tab-content"] {
             z-index: 1;/* or display: block; */
             opacity: 1;
         }
