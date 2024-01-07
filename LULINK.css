@@ -314,7 +314,8 @@
 
     .content {
         small {
-            background-color: #5F6697;
+            background-color: #7364b3;
+            border-color: #7364b3;
             color: white;
         }
 
@@ -386,8 +387,9 @@
 
     .content {
         small {
-            background-color: #76c38f;
-            border-color: #259a49;
+            background-color: #229466;
+            border-color: #229466;
+            color: white;
         }
 
         img {
