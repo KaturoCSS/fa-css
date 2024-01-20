@@ -21,7 +21,7 @@
         .tab-wrap {
             font-family: 'Helvetica', sans-serif;
             transition: 0.3s box-shadow ease;
-            max-width: 440;
+            max-width: 440px;
             display: flex;
             flex-wrap: wrap;
             position: relative;
