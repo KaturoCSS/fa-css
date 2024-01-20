@@ -1,0 +1,220 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+    .INFOCARD {
+        margin: 0 auto;
+        display: block;
+        max-width: 602px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 6px;
+        border: 10px solid #1a0935;
+        border-left: none;
+        border-right: none;
+        background: rgba(255, 255, 255, 0.6);
+
+        img {
+            clip-path: polygon(40.17% 0%, 67% 0px, 67% 100%, 21.67% 100.00%);
+            position: absolute;
+            left: 200;
+            z-index: 102;
+        }
+
+        .tab-wrap {
+            font-family: 'Helvetica', sans-serif;
+            transition: 0.3s box-shadow ease;
+            max-width: 440;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            list-style: none;
+        }
+
+        .tab-wrap:hover {
+            box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+        }
+
+        .tab {
+            display: none;
+        }
+
+        .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+            opacity: 1;
+            transition: 0.5s opacity ease-in, 0.8s transform ease;
+            position: relative;
+            top: 0;
+            z-index: 100;
+            transform: translateY(0px);
+            text-shadow: 0 0 0;
+        }
+
+        .tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+            opacity: 1;
+            transition: 0.5s opacity ease-in, 0.8s transform ease;
+            position: relative;
+            top: 0;
+            z-index: 100;
+            transform: translateY(0px);
+            text-shadow: 0 0 0;
+        }
+
+        .tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+            opacity: 1;
+            transition: 0.5s opacity ease-in, 0.8s transform ease;
+            position: relative;
+            top: 0;
+            z-index: 100;
+            transform: translateY(0px);
+            text-shadow: 0 0 0;
+        }
+
+        .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+            opacity: 1;
+            transition: 0.5s opacity ease-in, 0.8s transform ease;
+            position: relative;
+            top: 0;
+            z-index: 100;
+            transform: translateY(0px);
+            text-shadow: 0 0 0;
+        }
+
+        .tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+            opacity: 1;
+            transition: 0.5s opacity ease-in, 0.8s transform ease;
+            position: relative;
+            top: 0;
+            z-index: 100;
+            transform: translateY(0px);
+            text-shadow: 0 0 0;
+        }
+
+        .tab:first-of-type:not(:last-of-type) + label {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .tab:not(:first-of-type):not(:last-of-type) + label {
+            border-radius: 0;
+        }
+
+        .tab:last-of-type:not(:first-of-type) + label {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+
+        .tab:checked + label {
+            cursor: default;
+        }
+
+        .tab + label {
+            cursor: pointer;
+            display: block;
+            text-decoration: none;
+            flex-grow: 3;
+            text-align: center;
+            user-select: none;
+            transition: 0.3s background-color ease, 0.3s box-shadow ease;
+            height: 50px;
+            box-sizing: border-box;
+            padding: 15px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 20px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            background-size: 100%;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+        }
+
+        .tab + label:hover {
+            color: #1a0935;
+        }
+
+        .tab__content {
+            height: 329px;
+            overflow: auto;
+            padding: 10px 25px;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+            opacity: 0;
+            left: 0;
+            transform: translateY(-3px);
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            div {
+                font-family: 'Indie Flower', cursive;
+                margin-top: 10px;
+                border-width: 5px;
+                font-size: 25px;
+                border-bottom: 2px dotted;
+            }
+
+            a {
+                text-decoration: none !important;
+                display: block;
+                margin: 10px auto -8px 0px;
+                font-size: 12px;
+                text-transform: uppercase;
+                font-weight: bold;
+                line-height: 11px;
+                padding-left: 5px;
+                border-left: 25px solid;
+                transition: all 0.25s linear;
+                -webkit-transition: all 0.25s linear;
+            }
+
+            a:hover{
+                border-left: 50px solid;
+                filter: saturate(3);
+            }
+
+            p {
+                text-align: justify;
+                font-size: 13px;
+                padding-bottom: 10px;
+                line-height: 15px;
+                margin-bottom: 0px;
+                width: 300px;
+            }
+        }
+    }
+
+    .INFOCARD.lulu {
+        .tab + label {
+            background-color: #1a0935 !important;
+            background-image: linear-gradient(45deg, #5F6697, #1a0935);
+            border-image-source: linear-gradient(to right, #5F6697, #1a0935);
+        }
+
+        .tab:hover + label {
+            background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        }
+
+        .tab:checked + label {
+            background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        }
+
+        .tab__content {
+            p {
+                color: #1a0935;
+            }
+        }
+    }
+
+    .signINFOCARD {
+        position: relative;
+        top: -10em;
+        height: 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        content: url(https://i.ibb.co/mDqjG4c/plague-lulu-face.png);
+        padding-bottom: 60px;
+    }
