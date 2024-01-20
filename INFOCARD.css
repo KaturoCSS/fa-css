@@ -3,7 +3,7 @@
     .INFOCARD {
         margin: 0 auto;
         display: block;
-        max-width: 602px;
+        width: 602px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         border-radius: 6px;
         border: 10px solid #1a0935;
