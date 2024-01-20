@@ -14,7 +14,7 @@
         img {
             clip-path: polygon(40.17% 0%, 67% 0px, 67% 100%, 21.67% 100.00%);
             position: absolute;
-            left: 200;
+            left: 200px;
             z-index: 102;
         }
 
