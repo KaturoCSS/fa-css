@@ -12,7 +12,7 @@
     background: rgba(255, 255, 255, 0.6);
 
     span {
-        clip-path: polygon(31.5% 0%, 57% 0px, 57.00% 99.99%, 21.67% 100%);
+        clip-path: polygon(31.5% 0%, 57% 0px, 57.00% 98.19%, 21.5% 98.21%);
         position: absolute;
         left: 200px;
         z-index: 102;
