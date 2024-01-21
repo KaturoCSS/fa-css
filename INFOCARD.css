@@ -17,9 +17,12 @@
         left: 200px;
         z-index: 102;
         height: 390px;
+        width: 600px;
 
         img {
             position: relative;
+            height: 400px;
+            width: 600px;
         }
     }
 
