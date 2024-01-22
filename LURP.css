@@ -8,9 +8,6 @@
     align-items: center;
     width: 560px;
     padding: 20px;
-    color: #1a0935 !important;
-    background: #090d00;
-    color: rgba(0, 0, 0, 0.75); 
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
@@ -72,7 +69,6 @@
     }
 
     p:first-child::first-letter {
-        color:#6770b2;
         font-weight: bold;
         font-size: 70px;
         float: left;
@@ -82,8 +78,10 @@
     }
 
     .talk {
-        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9);
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
         -webkit-text-stroke-width: 0.7px;
+        padding: 5px;
     }
 
     hr {
@@ -99,6 +97,27 @@
         padding: 1rem;
     }
 }
+
+/* COLORS LULU */
+
+.cLURP.lulu {
+    color: #1a0935;
+    background: #090d00;
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #6770b2;
+        }
+    
+        .talk.lulu {
+            color: #6770B2;
+        }
+    }
+}
+
+
+
+/* END COLORS */
 
 .signaLURP {
     content: url(https://i.ibb.co/mDqjG4c/plague-lulu-face.png);
