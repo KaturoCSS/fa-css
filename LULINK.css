@@ -331,6 +331,18 @@
         hr {
             border-color: #1a0935;
         }
+
+        ul>li>div { 
+            p {
+                a {
+                    color: #1a0935;
+                }
+
+                a:hover {
+                    color: #5F6697;
+                }
+            }
+        }
     }
 
     .chrono {
@@ -403,6 +415,18 @@
 
         hr {
             border-color: #259a49;
+        }
+
+        ul>li>div { 
+            p {
+                a {
+                    color: #259a49;
+                }
+
+                a:hover {
+                    color: #76c38f;
+                }
+            }
         }
     }
 
