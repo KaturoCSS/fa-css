@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40');
 
 .INFOCARD {
     margin: 0 auto;
@@ -11,18 +12,16 @@
     border-right: none;
     background: rgba(255, 255, 255, 0.6);
 
-    span {
-        clip-path: polygon(31.5% 0%, 57% 0px, 57.00% 98.19%, 21.5% 98.21%);
+    span.avatar {
+        clip-path: polygon(6.51% -2.81%, 33% -10px, 33% 100%, 0% 100%);
         position: absolute;
-        left: 200px;
+        left: 344px;
         z-index: 102;
-        height: 390px;
+        height: 320px;
         width: 600px;
 
         img {
             position: relative;
-            height: 400px;
-            width: 600px;
         }
     }
 
@@ -48,7 +47,7 @@
         opacity: 1;
         transition: 0.5s opacity ease-in, 0.8s transform ease;
         position: relative;
-        top: 0;
+        top: -0px;
         z-index: 100;
         transform: translateY(0px);
         text-shadow: 0 0 0;
@@ -58,7 +57,7 @@
         opacity: 1;
         transition: 0.5s opacity ease-in, 0.8s transform ease;
         position: relative;
-        top: 0;
+        top: -0px;
         z-index: 100;
         transform: translateY(0px);
         text-shadow: 0 0 0;
@@ -68,7 +67,7 @@
         opacity: 1;
         transition: 0.5s opacity ease-in, 0.8s transform ease;
         position: relative;
-        top: 0;
+        top: -0px;
         z-index: 100;
         transform: translateY(0px);
         text-shadow: 0 0 0;
@@ -78,7 +77,7 @@
         opacity: 1;
         transition: 0.5s opacity ease-in, 0.8s transform ease;
         position: relative;
-        top: 0;
+        top: -0px;
         z-index: 100;
         transform: translateY(0px);
         text-shadow: 0 0 0;
@@ -88,7 +87,7 @@
         opacity: 1;
         transition: 0.5s opacity ease-in, 0.8s transform ease;
         position: relative;
-        top: 0;
+        top: -0px;
         z-index: 100;
         transform: translateY(0px);
         text-shadow: 0 0 0;
@@ -130,30 +129,54 @@
         -webkit-text-fill-color: transparent; 
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
+        background-color: black !important;
+        background-image: linear-gradient(45deg, #7b7e96, #000000);
+        border-image-source: linear-gradient(to right, #7b7e96, #000000);
     }
 
-    .tab + label:hover {
-        color: #1a0935;
+    .tab:hover + label {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    .tab:checked + label {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
     }
 
     .tab__content {
-        height: 329px;
+        height: 259px;
         overflow: auto;
         padding: 10px 25px;
+        padding-right: 100px;
         position: absolute;
-        width: 100%;
+        width: 333px;
         z-index: -1;
         opacity: 0;
         left: 0;
         transform: translateY(-3px);
 
         p {
+            font-family: 'DM Sans', sans-serif;
             text-align: justify;
             font-size: 13px;
             padding-bottom: 10px;
             line-height: 15px;
             margin-bottom: 0px;
-            width: 300px;
+            margin-top: 0;
+
+            i {
+                text-shadow: 0 0 1px currentColor;
+            }
+        }
+
+        span {
+            text-transform: lowercase;
+            font-size: 10px;
+            background-color: black;
+            color: white !important;
+            padding: 2px 10px;
+            border-radius: 30px;
+            opacity: 0.5;
+            line-height: 20px;
         }
     }
 }
@@ -176,12 +199,11 @@
     .tab__content {
         p {
             color: #1a0935;
-        }
-    }
 
-    span {
-        img {
-            left: -47px;
+            span {
+                background-color: #1a0935;
+            }
+
         }
     }
 }
