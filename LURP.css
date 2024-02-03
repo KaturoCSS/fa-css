@@ -11,9 +11,9 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.titleLURP { 
+.titleLURP {
     font-size: 10px;
-    text-align: center; 
+    text-align: center;
     margin: 0;
 
     p {
@@ -26,7 +26,7 @@
         border-width: 4px 0;
         padding: 1.5em 0em;
         width: 600px;
-      
+
         span {
             font: 700 4em/1 "Oswald", sans-serif;
             letter-spacing: 0;
@@ -34,17 +34,17 @@
             display: block;
             margin: 0 auto;
             text-shadow: 0 0 80px rgba(255,255,255,.5);
-        
+
             background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
             -webkit-background-clip: text;
             background-clip: text;
-        
+
             -webkit-text-fill-color: transparent;
             -webkit-animation: aitf 80s linear infinite;
-        
+
             -webkit-transform: translate3d(0,0,0);
             -webkit-backface-visibility: hidden;
-        
+
             filter: hue-rotate(-130deg);
             -webkit-filter: hue-rotate(-130deg);
         }
@@ -108,7 +108,7 @@
         p:first-child::first-letter {
             color: #6770b2;
         }
-    
+
         .talk.lulu {
             color: #6770B2;
         }
@@ -120,7 +120,7 @@
 /* END COLORS */
 
 .signaLURP {
-    content: url(https://i.ibb.co/mDqjG4c/plague-lulu-face.png);
+    content: url(https://i.ibb.co/Hh2BFhL/img-0011.png);
     height: 30px;
     display: flex;
     margin-left: auto;
