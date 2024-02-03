@@ -47,7 +47,7 @@
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
+        -webkit-text-fill-color: transparent;
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
         border: 10px solid;
@@ -72,7 +72,7 @@
         align-self: flex-end;
         margin-right: 50px;
     }
-    
+
     a {
         text-decoration: none !important;
         margin-left: 5px;
@@ -82,7 +82,7 @@
         background-size: 100%;
         background-repeat: repeat;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
+        -webkit-text-fill-color: transparent;
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
     }
@@ -114,7 +114,7 @@
 .entriesCHRONO {
     width: 600px;
     max-height: 0px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .entryCHRONO{
@@ -170,7 +170,7 @@
 
 .alignCHRONO {
     display: inline-flex;
-    align-items: start;  
+    align-items: start;
 }
 
 /* LULU COLORS */
@@ -358,6 +358,6 @@
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
-    content: url(https://i.ibb.co/mDqjG4c/plague-lulu-face.png);
+    content: url(https://i.ibb.co/Hh2BFhL/img-0011.png);
     height: 30px;
 }

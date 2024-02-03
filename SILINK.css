@@ -36,7 +36,7 @@
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
     border: 10px solid;
@@ -174,17 +174,17 @@
 }
 
 .ccSILINK div {
-    position: absolute; 
-    margin-top:-25px;  
-    width:500px; 
-    height: 0; 
-    overflow: hidden; 
-    transition: all 0.35s linear; 
+    position: absolute;
+    margin-top:-25px;
+    width:500px;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.35s linear;
     -webkit-transition: all 0.35s linear;
 }
 
 .ccSILINK:hover div {
-    margin-top: -523px; 
+    margin-top: -523px;
     height: 500px;
     background-color: #FDEFD9;
 }
@@ -203,6 +203,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    content: url("https://i.ibb.co/mDqjG4c/plague-lulu-face.png");
+    content: url("https://i.ibb.co/Hh2BFhL/img-0011.png");
     height: 30px;
 }
