@@ -16,7 +16,8 @@
     font-family: 'DM Sans', sans-serif;
 
     img.lulu {
-        width: 500px;
+        height: 450px;
+        width: auto;
         content: url(https://i.ibb.co/tMH3C5K/lulu.png)
     }
 }
