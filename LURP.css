@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40');
 
 .cLURP {
     margin-left: auto;
@@ -9,6 +10,15 @@
     width: 560px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cLURPsigna {
+    font-family: 'DM Sans', sans-serif;
+
+    img.lulu {
+        width: 500px;
+        content: url(https://i.ibb.co/Fnvxrwj/tk2s.png)
+    }
 }
 
 .titleLURP {
