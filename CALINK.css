@@ -593,7 +593,15 @@
         border-top: 10px solid #259a49;
 
         .CARD {
-            border-color: #083516;
+            border-color: #259a49;
+
+            a {
+                color: #083516;
+            }
+
+            a:hover {
+                color: #259a49;
+            }
 
             .tab + label {
                 background-color: #083516 !important;
