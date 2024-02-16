@@ -757,15 +757,15 @@
         }
 
         ul>li>[id^="tab-sauvage"]:checked + label>img {
-            filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
-            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+            filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #480302);
+            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #480302);
 
         }
 
         .title a {
             font-size: 40px !important;
             background-color: #b83d3b !important;
-            background-image: linear-gradient(45deg, #76c38f, #b83d3b);
+            background-image: linear-gradient(45deg, #480302, #b83d3b);
         }
 
         .title:hover a {
@@ -788,18 +788,18 @@
 
         .content {
             small {
-                background-color: #229466;
-                border-color: #229466;
+                background-color: #480302;
+                border-color: #480302;
                 color: white;
             }
 
             img {
-                filter: drop-shadow(0 0 1px #76c38f);
+                filter: drop-shadow(0 0 1px #480302);
             }
 
             img:hover {
-                filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
-                -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+                filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #480302);
+                -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #480302);
             }
 
             hr {
@@ -813,7 +813,7 @@
                     }
 
                     a:hover {
-                        color: #76c38f;
+                        color: #480302;
                     }
                 }
             }
@@ -826,7 +826,7 @@
             }
 
             a:hover {
-                color: #76c38f;
+                color: #480302;
             }
 
         }
