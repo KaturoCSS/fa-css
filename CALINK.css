@@ -709,6 +709,128 @@
         }
     }
 
+    /* COLORS SAUVAGE */
+
+    .containerCALINK.sauvage {
+        color: #6f0100;
+        border-top: 10px solid #b83d3b;
+
+        .CARD {
+            border-color: #b83d3b;
+
+            a {
+                color: #6f0100;
+            }
+
+            a:hover {
+                color: #b83d3b;
+            }
+
+            .tab + label {
+                background-color: #6f0100 !important;
+                background-image: linear-gradient(45deg, #b83d3b, #6f0100);
+                border-image-source: linear-gradient(to right, #b83d3b, #6f0100);
+            }
+
+            .tab:hover + label {
+                background-image: linear-gradient(45deg, #f3ec78, #af4261);
+            }
+
+            .tab:checked + label {
+                background-image: linear-gradient(45deg, #f3ec78, #af4261);
+            }
+
+            .tab__content {
+                p {
+                    color: #6f0100;
+
+                    span {
+                        background-color: #6f0100;
+                    }
+
+                }
+            }
+        }
+
+        hr {
+            border-color: #b83d3b;
+        }
+
+        ul>li>[id^="tab-sauvage"]:checked + label>img {
+            filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+
+        }
+
+        .title a {
+            font-size: 40px !important;
+            background-color: #b83d3b !important;
+            background-image: linear-gradient(45deg, #76c38f, #b83d3b);
+        }
+
+        .title:hover a {
+            background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        }
+
+        .sub a {
+            color: #b83d3b;
+        }
+
+        .sub a:hover {
+            background-image: linear-gradient(45deg, #f3ec78, #af4261);
+            background-size: 100%;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+        }
+
+        .content {
+            small {
+                background-color: #229466;
+                border-color: #229466;
+                color: white;
+            }
+
+            img {
+                filter: drop-shadow(0 0 1px #76c38f);
+            }
+
+            img:hover {
+                filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+                -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(3) hue-rotate(100deg) brightness(70%) drop-shadow(0 0 1px #76c38f);
+            }
+
+            hr {
+                border-color: #b83d3b;
+            }
+
+            ul>li>div {
+                p {
+                    a {
+                        color: #b83d3b;
+                    }
+
+                    a:hover {
+                        color: #76c38f;
+                    }
+                }
+            }
+        }
+
+        .chrono {
+
+            div {
+                color: #b83d3b;
+            }
+
+            a:hover {
+                color: #76c38f;
+            }
+
+        }
+    }
 
     /* END COLORS */
 
