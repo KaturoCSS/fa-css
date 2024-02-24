@@ -81,8 +81,7 @@
             }
 
             a:hover {
-                filter: brightness(1.2);
-                -webkit-filter: brightness(1.2);
+                opacity: 0.7;
             }
 
             span {
