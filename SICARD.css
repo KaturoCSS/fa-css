@@ -1,0 +1,122 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40');
+
+    .SICARD:hover {
+        box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    .SICARD {
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        width: 542px;
+        height: 312px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 6px;
+        border: 10px solid #7d49ff;
+        border-left: none;
+        border-right: none;
+        background: #fff !important;
+        transition: 0.3s box-shadow ease;
+
+        span.avatar {
+            clip-path: polygon(6.51% -2.81%, 33% -10px, 33% 100%, 2.50% 100.32%);
+            position: absolute;
+            margin-left: 344px;
+            z-index: 102;
+            height: 312px;
+            width: 600px;
+
+            img {
+                position: relative;
+                height: 320px;
+            }
+        }
+
+        .title, .first-title {
+            display: flex;
+            position: relative;
+            cursor: pointer;
+            padding: 0 5px;
+            padding-top: 10px;
+            opacity: 0.9;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 20px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            color: #7b7e96;
+            background-size: 100%;
+            z-index: 103;
+            text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white, 0 0 3px white;
+        }
+
+        .title:hover , .onglet:focus .title, .first-title:hover, .first-onglet:focus .first-title {
+            filter: brightness(1.2);
+            -webkit-filter: brightness(1.2);
+        }
+
+        .first-title {
+            padding-left: 25px;
+        }
+
+        .box {
+            position: absolute;
+            width: 333px;
+            height: 255px;
+            padding: 10px 25px;
+            padding-right: 50px;
+            font-family: 'DM Sans', sans-serif;
+            text-align: justify;
+            font-size: 13px;
+            line-height: 20px;
+            color: black;
+            overflow-x: hidden;
+            overflow-y: auto;
+            left: 0px;
+            background: #fff;
+
+            a {
+                text-decoration: none;
+            }
+
+            a:hover {
+                filter: brightness(1.2);
+                -webkit-filter: brightness(1.2);
+            }
+
+            span {
+                text-transform: lowercase;
+                font-size: 10px;
+                color: white;
+                padding: 2px 10px;
+                border-radius: 30px;
+                opacity: 0.5;
+                line-height: 30px;
+            }
+
+            i {
+                text-shadow: 0 0 1px currentColor;
+            }
+        }
+
+        .onglet {
+            position: static;
+        }
+
+        .onglet .box {
+            display: none;
+            position: absolute;
+        }
+
+        .onglet:focus .box {
+            display: block;
+        }
+    }
+
+    .sSICARD {
+        padding-top: 10px;
+        display: block;
+        margin: 0 auto;
+        content: url("https://i.ibb.co/Hh2BFhL/img-0011.png") !important;
+        height: 30px;
+    }
