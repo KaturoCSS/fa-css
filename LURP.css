@@ -20,6 +20,12 @@
         height: auto;
         content: url(https://i.ibb.co/mqPgLmN/lulu-spot.png)
     }
+
+    img.loki {
+        width: 550px;
+        height: auto;
+        content: url(https://zupimages.net/up/24/09/wrkn.png)
+    }
 }
 
 .titleLURP {
@@ -117,7 +123,7 @@
 
 .cLURP.lulu {
     color: #1a0935;
-    background: #090d00;
+    background: #aeabc6;
 
     .descLURP {
         p:first-child::first-letter {
@@ -129,6 +135,24 @@
         }
     }
 }
+
+/* COLORS LOKI */
+
+.cLURP.lulu {
+    color: #083516;
+    background: #abdebb;
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #259A49;
+        }
+
+        .talk.lulu {
+            color: #259A49;
+        }
+    }
+}
+
 
 
 
