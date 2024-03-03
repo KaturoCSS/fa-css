@@ -62,8 +62,6 @@
             -webkit-transform: translate3d(0,0,0);
             -webkit-backface-visibility: hidden;
 
-            filter: hue-rotate(-130deg);
-            -webkit-filter: hue-rotate(-130deg);
         }
     }
 }
@@ -125,6 +123,13 @@
     color: #1a0935;
     background: #aeabc6;
 
+    .titleLURP {
+        span {
+            filter: hue-rotate(-130deg);
+            -webkit-filter: hue-rotate(-130deg);
+        }
+    }
+
     .descLURP {
         p:first-child::first-letter {
             color: #6770b2;
@@ -140,7 +145,14 @@
 
 .cLURP.loki {
     color: #083516;
-    background: #abdebb;
+    background: #90bd9f;
+
+    .titleLURP {
+        span {
+            filter: hue-rotate(70deg);
+            -webkit-filter: hue-rotate(70deg);
+        }
+    }
 
     .descLURP {
         p:first-child::first-letter {
