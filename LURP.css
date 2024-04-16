@@ -107,10 +107,10 @@
         border-radius: 10px;
         -webkit-text-stroke-width: 0.7px;
         padding: 10px;
+    }
 
-        .light {
-            text-shadow: 1px 1px 2px pink;
-        }
+    .light {
+        text-shadow: 1px 1px 2px pink;
     }
 
     hr {
