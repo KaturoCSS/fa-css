@@ -15,7 +15,13 @@
 .cLURPsigna {
     font-family: 'DM Sans', sans-serif;
 
-    img.lulu {
+    img.lulu-11 {
+        height: 600px;
+        width: auto;
+        content: url(https://i.ibb.co/pjLLbN4/lulu.png)
+    }
+
+    img.lulu-12 {
         width: 600px;
         height: auto;
         content: url(https://i.ibb.co/mqPgLmN/lulu-spot.png)
