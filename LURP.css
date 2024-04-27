@@ -176,7 +176,29 @@
 }
 
 
+/* COLORS HEROS */
 
+.cLURP.heros {
+    color: #042826;
+    background: #6aada9;
+
+    .titleLURP {
+        span {
+            filter: hue-rotate(150deg);
+            -webkit-filter: hue-rotate(150deg);
+        }
+    }
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #01766e;
+        }
+
+        .talk.heros {
+            color: #01766e;
+        }
+    }
+}
 
 /* END COLORS */
 
