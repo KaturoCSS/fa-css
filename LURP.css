@@ -32,6 +32,12 @@
         height: auto;
         content: url(https://zupimages.net/up/24/09/wrkn.png)
     }
+
+    img.heros {
+        height: 410px;
+        width: auto;
+        content: url(https://i.ibb.co/TBwcb3R/HEROS-copie-2.png)
+    }
 }
 
 .titleLURP {
