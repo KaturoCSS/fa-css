@@ -599,14 +599,14 @@
     /* COLORS LOKI */
 
     .containerCALINK.loki {
-        color: #083516;
+        color: #003310;
         border-top: 10px solid #259a49;
 
         .CARD {
             border-color: #259a49;
 
             a {
-                color: #083516;
+                color: #003310;
             }
 
             a:hover {
@@ -614,9 +614,9 @@
             }
 
             .tab + label {
-                background-color: #083516 !important;
-                background-image: linear-gradient(45deg, #259a49, #083516);
-                border-image-source: linear-gradient(to right, #259a49, #083516);
+                background-color: #003310 !important;
+                background-image: linear-gradient(45deg, #259a49, #003310);
+                border-image-source: linear-gradient(to right, #259a49, #003310);
             }
 
             .tab:hover + label {
@@ -629,10 +629,10 @@
 
             .tab__content {
                 p {
-                    color: #083516;
+                    color: #003310;
 
                     span {
-                        background-color: #083516;
+                        background-color: #003310;
                     }
 
                 }
