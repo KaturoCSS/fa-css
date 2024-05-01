@@ -435,7 +435,7 @@
                 margin-top:-25px;
                 width:500px;
                 height: 0;
-                overflow: hidden;
+                overflow: scroll;
                 transition: all 0.35s linear;
                 -webkit-transition: all 0.35s linear;
 
