@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40');
+
+.INFOCARD {
+    margin: 0 auto;
+    display: block;
+    width: 542px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    border: 10px solid #1a0935;
+    border-left: none;
+    border-right: none;
+    background: rgba(255, 255, 255, 0.6);
+
+    span.avatar {
+        clip-path: polygon(6.51% -2.81%, 33% -10px, 33% 100%, 0% 100%);
+        position: absolute;
+        left: 344px;
+        z-index: 102;
+        height: 312px;
+        width: 600px;
+
+        img {
+            position: relative;
+            height: 320px;
+            width: 200px;
+        }
+    }
+
+    .tab-wrap {
+        font-family: 'Helvetica', sans-serif;
+        transition: 0.3s box-shadow ease;
+        max-width: 440px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        list-style: none;
+    }
+
+    .tab-wrap:hover {
+        box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    .tab {
+        display: none;
+    }
+
+    .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: -0px;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: -0px;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: -0px;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: -0px;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: -0px;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:first-of-type:not(:last-of-type) + label {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding-left: 25px;
+    }
+
+    .tab:not(:first-of-type):not(:last-of-type) + label {
+        border-radius: 0;
+    }
+
+    .tab:last-of-type:not(:first-of-type) + label {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .tab:checked + label {
+        cursor: default;
+    }
+
+    .tab + label {
+        cursor: pointer;
+        display: flex;
+        transition: 0.3s background-color ease, 0.3s box-shadow ease;
+        box-sizing: border-box;
+        padding-top: 15px;
+        padding-right: 10px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+        background-color: black !important;
+        background-image: linear-gradient(45deg, #7b7e96, #000000);
+        border-image-source: linear-gradient(to right, #7b7e96, #000000);
+    }
+
+    .tab:hover + label {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    .tab:checked + label {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    .tab__content {
+        height: 259px;
+        overflow: auto;
+        padding: 10px 25px;
+        padding-right: 100px;
+        position: absolute;
+        width: 333px;
+        z-index: -1;
+        opacity: 0;
+        left: 0;
+        transform: translateY(-3px);
+
+        p {
+            font-family: 'DM Sans', sans-serif;
+            text-align: justify;
+            font-size: 13px;
+            padding-bottom: 10px;
+            line-height: 15px;
+            margin-bottom: 0px;
+            margin-top: 0;
+
+            i {
+                text-shadow: 0 0 1px currentColor;
+            }
+        }
+
+        span {
+            text-transform: lowercase;
+            font-size: 10px;
+            background-color: black;
+            color: white !important;
+            padding: 2px 10px;
+            border-radius: 30px;
+            opacity: 0.5;
+            line-height: 20px;
+        }
+    }
+}
+
+.INFOCARD.lulu {
+    .tab + label {
+        background-color: #1a0935 !important;
+        background-image: linear-gradient(45deg, #5F6697, #1a0935);
+        border-image-source: linear-gradient(to right, #5F6697, #1a0935);
+    }
+
+    .tab:hover + label {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    .tab:checked + label {
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    }
+
+    .tab__content {
+        p {
+            color: #1a0935;
+
+            span {
+                background-color: #1a0935;
+            }
+
+        }
+    }
+}
+
+.signaINFOCARD {
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    content: url("https://i.ibb.co/Hh2BFhL/img-0011.png") !important;
+    height: 30px;
+}

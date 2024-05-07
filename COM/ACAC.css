@@ -1,0 +1,359 @@
+/* ACAC V2 */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&display=swap');
+
+.cACAC {
+    margin: 0 auto;
+    display: block;
+    max-width: 600px;
+
+    .tab-wrap {
+        font-family: 'Helvetica', sans-serif;
+        transition: 0.3s box-shadow ease;
+        border-radius: 6px;
+        max-width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        list-style: none;
+        background-color: #D3C1B0;
+        margin: 40px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+        .acacia {
+            color: #B8860B;
+
+            a {
+                color: #B8860B;
+            }
+        }
+
+        .pyrope {
+            color: #B22222;
+
+            a {
+                color: #B22222;
+            }
+        }
+
+        .tsunami {
+            color: #E0FFFF;
+
+            a {
+                color: #E0FFFF;
+            }
+        }
+    }
+
+    .tab-wrap:hover {
+        box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+    }
+
+    .tab {
+        display: none;
+    }
+
+    .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: 0;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: 0;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(3) ~ .tab__content:nth-of-type(3) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: 0;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(4) ~ .tab__content:nth-of-type(4) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: 0;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:checked:nth-of-type(5) ~ .tab__content:nth-of-type(5) {
+        opacity: 1;
+        transition: 0.5s opacity ease-in, 0.8s transform ease;
+        position: relative;
+        top: 0;
+        z-index: 100;
+        transform: translateY(0px);
+        text-shadow: 0 0 0;
+    }
+
+    .tab:first-of-type:not(:last-of-type) + label {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .tab:not(:first-of-type):not(:last-of-type) + label {
+        border-radius: 0;
+    }
+
+    .tab:last-of-type:not(:first-of-type) + label {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .tab:checked + label {
+        background-color: #C4A4846B;
+        box-shadow: 0 1px 0 #C4A4846B inset;
+        cursor: default;
+    }
+
+    .tab:checked + label:hover {
+        box-shadow: 0 -1px 0 #D3C1B0 inset;
+        background-color: #D3C1B0;
+    }
+
+    .tab + label {
+        box-shadow: 0 -1px 0 #C4A484 inset;
+        border-radius: 6px 6px 0 0;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: #5c2b00;
+        flex-grow: 3;
+        text-align: center;
+        background-color: #C4A484;
+        user-select: none;
+        transition: 0.3s background-color ease, 0.3s box-shadow ease;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 15px;
+        font-family: 'Caveat', cursive;
+        font-size: 20px;
+    }
+
+    .tab + label:hover {
+        background-color: #D3C1B0;
+        box-shadow: 0 1px 0 #D3C1B0 inset;
+    }
+
+    .tab__content {
+        min-height: 300px;
+        overflow: auto;
+        padding: 10px 25px;
+        background-color: #C4A4846B;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        opacity: 0;
+        left: 0;
+        transform: translateY(-3px);
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div {
+            font-family: 'Indie Flower', cursive;
+            margin-top: 10px;
+            border-width: 5px;
+            font-size: 25px;
+            border-bottom: 2px dotted;
+        }
+
+        a {
+            text-decoration: none !important;
+            display: block;
+            margin: 10px auto -8px 0px;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 11px;
+            padding-left: 5px;
+            border-left: 25px solid;
+            transition: all 0.25s linear;
+            -webkit-transition: all 0.25s linear;
+        }
+
+        a:hover{
+            border-left: 50px solid;
+            filter: saturate(3);
+        }
+
+        p {
+            color: #5c2b00 !important;
+            text-align: justify;
+            font-size: 13px;
+            padding-bottom: 10px;
+            line-height: 15px;
+            margin-bottom: 0px;
+        }
+    }
+
+    .leaves-bottom {
+        width: 600px;
+        content: url(https://i.ibb.co/g7R53t9/leaves-1.png);
+        margin-top: -6em;
+    }
+
+    .leaves {
+        width: 600px;
+        content: url(https://i.ibb.co/6R0Pcht/leaves-invert.png);
+        margin-bottom: -6em;
+    }
+}
+
+.signACAC {
+    position: relative;
+    top: -10em;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    content: url(https://i.ibb.co/mDqjG4c/plague-lulu-face.png);
+    padding-bottom: 60px;
+}
+
+/* ACAC V1 */
+
+.containerACAC {
+    width: 500px !important;
+    font-family: 'Arial' !important;
+    margin: auto !important;
+    font-size: 15px !important;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position: relative;
+    top: 50px !important;
+}
+
+.contentACAC {
+    height: 600px;
+    color: black;
+}
+
+.picACAC {
+    height: 40px;
+}
+
+.tabsACAC{
+    display: inline-flex;
+    position: relative;
+    width: 440px !important;
+    justify-content: left;
+}
+
+.labACAC{
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    margin: 1px;
+}
+
+.tabACAC{
+    float: left;
+    display: block;
+}
+
+.tabsACAC .tabACAC>input[type="radio"] {
+    position: absolute;
+    border: 0px;
+    width: 100%;
+    height: 5em;
+    visibility: hidden;
+}
+
+.tabsACAC .tabACAC>label {
+    display: inline-flex;
+    padding: 6px 21px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    top: -66px;
+    background: rgba(255, 255, 255, 0.6);
+    filter: brightness(0.5);
+    -webkit-filter: brightness(0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px -3px 4px;
+}
+
+.tabsACAC .tabContentACAC {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    opacity:0;
+    top: -25px;
+    left: -5px;
+}
+
+.tabsACAC>.tabACAC>[id^="aca-tab"]:checked + label {
+    transition: 10ms;
+    filter: brightness(1);
+    -webkit-filter: brightness(1);
+}
+
+.tabsACAC>.tabACAC>[id^="aca-tab"]:checked ~ [id^="aca-tab-content"] {
+    z-index: 1;/* or display: block; */
+    opacity: 1;
+}
+
+.tabContentACAC {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.borderACAC {
+    width: 460px;
+    height: 460px;
+    font-size: 13px;
+    text-align: justify;
+    border-radius: 3px;
+    border: 3px solid black;
+    padding: 20px;
+    overflow: auto;
+}
+
+.pixelACAC {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+.linkACAC {
+    text-decoration: none;
+    color: black;
+}
+
+.linkACAC:hover {
+    color: inherit;
+}
+
+.signaACAC {
+    position: relative;
+    top: -10em;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    content: url(https://i.ibb.co/Hh2BFhL/img-0011.png);
+    padding-bottom: 60px;
+}
