@@ -20,7 +20,7 @@
         transition: 0.3s box-shadow ease;
 
         span.avatar {
-            clip-path: polygon(6.51% -2.81%, 33% -10px, 33% 100%, 2.50% 100.32%);
+            clip-path: polygon(20.51% -1.87%, 99% -1px, 99% 98.44%, 2.5% 98.13%);
             position: absolute;
             margin-left: 344px;
             z-index: 102;
