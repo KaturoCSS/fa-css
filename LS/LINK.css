@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40');
+
+.LINK:hover {
+    box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.LINK {
+    position: relative; display: flex; margin: 0 auto; margin-top: 50px;
+    width: 600px; height: 600px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 6px; border: 10px solid #000; border-left: none; border-right: none;
+    transition: 0.3s box-shadow ease;
+
+    .title {
+        position: absolute; text-align: center; top: -50px;
+        width: 600px;
+        font-family: 'Bebas Neue', sans-serif; font-size: 35px;
+        -webkit-filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.7)); filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.7));
+        font-size: 35px;
+    }
+
+    .clan-icon, .first-clan-icon {
+        display: flex;
+        position: relative;
+        cursor: pointer;
+        padding: 0 5px;
+        padding-top: 10px;
+        opacity: 0.9;
+        height: 55px;
+        z-index: 103;
+        filter: drop-shadow(0 0 1px #000);
+        -webkit-filter: drop-shadow(0 0 1px #000);
+    }
+
+    .clan-icon:hover , .first-clan-icon:hover {
+        filter: contrast(10%) saturate(20) brightness(70%) drop-shadow(0 0 1px #000);
+        -webkit-filter: contrast(10%) saturate(20) brightness(70%) drop-shadow(0 0 1px #000);
+    }
+
+    .first-clan-icon {
+        padding-left: 25px;
+    }
+
+    .clan-icon {
+        padding-left: 28px;
+    }
+
+    .thunder {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(0deg) brightness(80%) drop-shadow(0 0 1px #978b5f);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(0deg) brightness(80%) drop-shadow(0 0 1px #978b5f);
+    }
+
+    .shadow {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(30) hue-rotate(220deg) brightness(50%) drop-shadow(0 0 1px #5F6697);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(30) hue-rotate(220deg) brightness(50%) drop-shadow(0 0 1px #5F6697);
+    }
+
+    .moon {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(0) hue-rotate(210deg) brightness(100%) drop-shadow(0 0 1px #6e5f97);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(0) hue-rotate(210deg) brightness(100%) drop-shadow(0 0 1px #6e5f97);
+    }
+
+    .wind {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(45deg) brightness(70%) drop-shadow(0 0 1px #5f976c);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(45deg) brightness(70%) drop-shadow(0 0 1px #5f976c);
+    }
+
+    .river {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(150deg) brightness(70%) drop-shadow(0 0 1px #5f8397);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(150deg) brightness(70%) drop-shadow(0 0 1px #5f8397);
+    }
+
+    .loner {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(0) hue-rotate(150deg) brightness(30%) drop-shadow(0 0 1px #5F6697);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(0) hue-rotate(150deg) brightness(30%) drop-shadow(0 0 1px #5F6697);
+    }
+
+    .star {
+        filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(230deg) brightness(70%) drop-shadow(0 0 1px #975f8f);
+        -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(230deg) brightness(70%) drop-shadow(0 0 1px #975f8f);
+    }
+
+    .box {
+        position: absolute; left: 0px; top: 75px;
+        width: 525px; height: 505px;
+        padding: 10px 25px; padding-right: 50px; padding-bottom: 0px;
+        font-family: 'DM Sans', sans-serif; text-align: justify; font-size: 13px; line-height: 20px; color: black;
+        overflow-x: hidden; overflow-y: auto;
+        border-top: 5px dotted #000;
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            opacity: 0.7;
+        }
+
+        span {
+            text-transform: lowercase;
+            font-size: 10px;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 30px;
+            opacity: 0.5;
+            line-height: 30px;
+        }
+
+        i {
+            text-shadow: 0 0 1px currentColor;
+        }
+    }
+
+    .onglet {
+        position: static;
+    }
+
+    .onglet .box {
+        display: none;
+        position: absolute;
+    }
+
+    .onglet:focus .box {
+        display: block;
+    }
+
+    .relation {
+        display: inline-flex;
+        width: 540px;
+        padding: 10px 0px;
+        font-family: "Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+
+        p {
+            padding-left: 20px;
+            margin: 0;
+            width: 500px;
+        }
+    }
+
+    .nom {
+        font-family: 'Bebas Neue', sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .chat {
+        width: 140px;
+    }
+
+    .lien {
+        font-size: 11px;
+        background-color: #ffffff6c;
+        border-radius: 8px;
+        padding: 0px 5px;
+        width: fit-content;
+    }
+
+    .positif {
+        color: #2c990d;
+        background-color: #c0ffb86b;
+    }
+
+    .negatif {
+        color: #de3f3e;
+        background-color: #ff91916b;
+    }
+
+    .neutre {
+        color: #00a6df;
+        background-color: #fafbff6b;
+    }
+}
+
+.sLINK {
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    content: url("https://i.ibb.co/Hh2BFhL/img-0011.png") !important;
+    height: 30px;
+}
