@@ -5,6 +5,10 @@
     box-shadow: 0 12px 23px rgba(0, 0, 0, 0.23), 0 10px 10px rgba(0, 0, 0, 0.19);
 }
 
+.LINK.with-title {
+    margin-top: 50px;
+}
+
 .LINK {
     position: relative; display: flex; margin: 0 auto;
     width: 600px; height: 600px;
@@ -12,9 +16,7 @@
     border-radius: 6px; border: 10px solid #000; border-left: none; border-right: none;
     transition: 0.3s box-shadow ease;
 
-    .with-title {
-        margin-top: 50px;
-    }
+
 
     .title {
         position: absolute; text-align: center; top: -50px;
