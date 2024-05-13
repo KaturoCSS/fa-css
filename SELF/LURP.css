@@ -33,6 +33,12 @@
         content: url(https://zupimages.net/up/24/09/wrkn.png)
     }
 
+    img.sauvage {
+        width: 550px;
+        height: auto;
+        content: url(https://i.ibb.co/G9bBrB7/cropped.png)
+    }
+
     img.zirgouflex {
         height: 410px;
         width: auto;
@@ -177,6 +183,30 @@
 
         .talk.loki {
             color: #259A49;
+        }
+    }
+}
+
+/* COLORS SAUVAGE */
+
+.cLURP.sauvage {
+    color: #220303;
+    background: #8a3e3e;
+
+    .titleLURP {
+        span {
+            filter: hue-rotate(70deg);
+            -webkit-filter: hue-rotate(70deg);
+        }
+    }
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #6f0100;
+        }
+
+        .talk.sauvage {
+            color: #6f0100;
         }
     }
 }
