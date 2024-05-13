@@ -191,12 +191,12 @@
 
 .cLURP.sauvage {
     color: #220303;
-    background: #8a3e3e;
+    background: #a89494;
 
     .titleLURP {
         span {
-            filter: hue-rotate(70deg);
-            -webkit-filter: hue-rotate(70deg);
+            filter: hue-rotate(-24deg) brightness(0.5);
+            -webkit-filter: hue-rotate(-24deg) brightness(0.5);
         }
     }
 
