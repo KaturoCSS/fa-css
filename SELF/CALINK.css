@@ -354,6 +354,16 @@
                 opacity: 1;
             }
 
+            ul>li>[id^="tab-heros"]:checked + label {
+                top: 0;
+                transition: 10ms;
+            }
+
+            ul>li>[id^="tab-heros"]:checked ~ [id^="tab-content-loki"] {
+                z-index: 1;/* or display: block; */
+                opacity: 1;
+            }
+
             img {
                 height: 40px;
             }
@@ -889,8 +899,8 @@
         }
 
         ul>li>[id^="tab-heros"]:checked + label>img {
-            filter: contrast(10%) invert(100%) sepia(100%) saturate(100) hue-rotate(-0deg) brightness(70%) drop-shadow(0 0 1px #042826);
-            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(100) hue-rotate(-0deg) brightness(70%) drop-shadow(0 0 1px #042826);
+            filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(140deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
+            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(140deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
         }
 
         .title a {
