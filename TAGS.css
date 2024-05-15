@@ -60,8 +60,8 @@
 .tags a.family {background: #dc8b44;}
 .tags a.family:before {border-color: transparent #dc8b44 transparent transparent;}
 
-.tags a.friend {background: #b9d963;}
-.tags a.friend:before {border-color: transparent #b9d963 transparent transparent;}
+.tags a.friend {background: #9dc82a;}
+.tags a.friend:before {border-color: transparent #9dc82a transparent transparent;}
 
 .tags a.hate {background: #de3f3e;}
 .tags a.hate:before {border-color: transparent #de3f3e transparent transparent;}
