@@ -359,7 +359,7 @@
                 transition: 10ms;
             }
 
-            ul>li>[id^="tab-heros"]:checked ~ [id^="tab-content-loki"] {
+            ul>li>[id^="tab-heros"]:checked ~ [id^="tab-content-heros"] {
                 z-index: 1;/* or display: block; */
                 opacity: 1;
             }
