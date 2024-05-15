@@ -8,7 +8,7 @@
     .containerCALINK {
         width: 500px !important;
         position: relative;
-        top: 30px;
+        top: 50px;
         font-family: 'Arial' !important;
         margin: auto !important;
         font-size: 15px !important;
@@ -223,7 +223,7 @@
             justify-content: center;
             width: 500px;
             position: relative;
-            top: -29px;
+            top: -40px;
             padding-bottom: 38px;
 
             img {
