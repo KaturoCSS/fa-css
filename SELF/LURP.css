@@ -28,13 +28,13 @@
     }
 
     img.loki {
-        width: 550px;
-        height: auto;
+        height: 410px;
+        width: auto;
         content: url(https://i.ibb.co/N9XmJ5k/AMANDE-LOKISANSTEXTE.png)
     }
 
     img.sauvage {
-        width: 550px;
+        width: 600px;
         height: auto;
         content: url(https://i.ibb.co/G9bBrB7/cropped.png)
     }
