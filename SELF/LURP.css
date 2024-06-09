@@ -151,6 +151,12 @@
     color: #1a0935;
     background: #aeabc6;
 
+    img.loki {
+        height: auto;
+        width: 600px;
+        content: url(https://i.ibb.co/8MQ1VKx/loki-new-header.png)
+    }
+
     .titleLURP {
         span {
             filter: hue-rotate(-130deg);
@@ -174,6 +180,12 @@
 .cLURP.loki {
     color: #083516;
     background: #90bd9f;
+
+    img.lulu-apprentice {
+        height: auto;
+        width: 600px;
+        content: url(https://www.zupimages.net/up/24/03/3g4b.png)
+    }
 
     .titleLURP {
         span {
