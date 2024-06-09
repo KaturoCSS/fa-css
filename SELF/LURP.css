@@ -179,7 +179,8 @@
 
 .cLURP.loki {
     color: #083516;
-    background: #90bd9f;
+    background: #94bd90;
+    /* Old background : 90bd9f */
 
     img.loki {
         height: auto;
