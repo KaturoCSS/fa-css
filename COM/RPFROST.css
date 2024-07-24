@@ -7,7 +7,7 @@
     background-color: #ffffff;
     border: 5px solid #000000; border-radius: 7px;
     transition-duration: 1s; transition-property: background-color;
-    font-family: "LXGW WenKai TC", cursive; font-weight: 700; font-style: normal; color: #000000;
+    font-family: "LXGW WenKai TC", cursive !important; font-weight: 700; font-style: normal; color: #000000;
 
     .header {
         display: block;
