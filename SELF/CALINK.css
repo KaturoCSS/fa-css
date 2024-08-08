@@ -1021,15 +1021,15 @@
             border-color: #59777e;
         }
 
-        ul>li>[id^="tab-heros"]:checked + label>img {
-            filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(140deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
-            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(140deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
+        ul>li>[id^="tab-gui"]:checked + label>img {
+            filter: contrast(10%) invert(100%) sepia(100%) saturate(1) hue-rotate(140deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
+            -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(1) hue-rotate(140deg) brightness(70%) drop-shadow(0 0 1px #5F6697);
         }
 
         .title a {
             font-size: 40px !important;
             background-color: #59777e !important;
-            background-image: linear-gradient(45deg, #042826, #59777e);
+            background-image: linear-gradient(45deg, #59777e, #e5fffd);
         }
 
         .title:hover a {
@@ -1062,8 +1062,8 @@
             }
 
             img:hover {
-                filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(140deg) brightness(90%) drop-shadow(0 0 1px #5F6697);
-                -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(20) hue-rotate(140deg) brightness(90%) drop-shadow(0 0 1px #5F6697);
+                filter: contrast(10%) invert(100%) sepia(100%) saturate(1) hue-rotate(140deg) brightness(90%) drop-shadow(0 0 1px #5F6697);
+                -webkit-filter: contrast(10%) invert(100%) sepia(100%) saturate(1) hue-rotate(140deg) brightness(90%) drop-shadow(0 0 1px #5F6697);
             }
 
             hr {
