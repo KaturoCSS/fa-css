@@ -984,7 +984,7 @@
             border-color: #59777e;
 
             a {
-                color: #e5fffd;
+                color: #59777e;
             }
 
             a:hover {
@@ -1007,7 +1007,7 @@
 
             .tab__content {
                 p {
-                    color: #e5fffd;
+                    color: #59777e;
 
                     span {
                         background-color: #e5fffd;
