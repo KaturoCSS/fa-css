@@ -364,6 +364,16 @@
                 opacity: 1;
             }
 
+            ul>li>[id^="tab-gui"]:checked + label {
+                top: 0;
+                transition: 10ms;
+            }
+
+            ul>li>[id^="tab-gui"]:checked ~ [id^="tab-content-gui"] {
+                z-index: 1;/* or display: block; */
+                opacity: 1;
+            }
+
             img {
                 height: 40px;
             }
