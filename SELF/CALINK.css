@@ -1058,7 +1058,7 @@
             }
 
             img {
-                filter: drop-shadow(0 0 1px #042826);
+                filter: drop-shadow(0 0 1px #e5fffd);
             }
 
             img:hover {
@@ -1077,7 +1077,7 @@
                     }
 
                     a:hover {
-                        color: #042826;
+                        color: #e5fffd;
                     }
                 }
             }
@@ -1090,7 +1090,7 @@
             }
 
             a:hover {
-                color: #042826;
+                color: #e5fffd;
             }
 
         }
