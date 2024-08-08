@@ -978,7 +978,7 @@
 
      .containerCALINK.gui {
         color: #011f20;
-        border-top: 10px solid #6aada9;
+        border-top: 10px solid #59777e;
 
         .CARD {
             border-color: #59777e;
@@ -992,7 +992,7 @@
             }
 
             .tab + label {
-                background-color: #e5fffd !important;
+                background-color: #59777e !important;
                 background-image: linear-gradient(45deg, #59777e, #e5fffd);
                 border-image-source: linear-gradient(to right, #59777e, #e5fffd);
             }
@@ -1010,7 +1010,7 @@
                     color: #59777e;
 
                     span {
-                        background-color: #e5fffd;
+                        background-color: #59777e;
                     }
 
                 }
