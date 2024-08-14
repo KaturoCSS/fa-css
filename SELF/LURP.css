@@ -269,8 +269,8 @@
 
     .titleLURP {
         span {
-            filter: hue-rotate(150deg);
-            -webkit-filter: hue-rotate(150deg);
+            filter: hue-rotate(360deg);
+            -webkit-filter: hue-rotate(360deg);
         }
     }
 
