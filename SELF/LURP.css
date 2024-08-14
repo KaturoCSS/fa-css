@@ -266,7 +266,7 @@
 .cLURP.innocence {
     color: #042826;
     background: #6aada9;
-    
+
     .titleLURP {
         span {
             filter: hue-rotate(150deg);
@@ -279,8 +279,8 @@
             color: #01766e;
         }
 
-        .talk.heros {
-            color: #01766e;
+        .talk.innocence {
+            color: #ffdb6d;
         }
     }
 }
