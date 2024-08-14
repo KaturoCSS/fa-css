@@ -50,6 +50,12 @@
         width: auto;
         content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/heros/h%C3%A9ros%20apprenti%20amande.png?raw=true)
     }
+
+    img.innocence {
+        width: 600px;
+        height: auto;
+        content: url(https://i.ibb.co/vY4PFTv/IMG-4979.png);
+    }
 }
 
 .titleLURP {
@@ -237,6 +243,30 @@
     color: #042826;
     background: #6aada9;
 
+    .titleLURP {
+        span {
+            filter: hue-rotate(150deg);
+            -webkit-filter: hue-rotate(150deg);
+        }
+    }
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #01766e;
+        }
+
+        .talk.heros {
+            color: #01766e;
+        }
+    }
+}
+
+/* COLORS INNOCENCE */
+
+.cLURP.innocence {
+    color: #042826;
+    background: #6aada9;
+    
     .titleLURP {
         span {
             filter: hue-rotate(150deg);
