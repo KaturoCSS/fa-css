@@ -299,11 +299,11 @@
 
     .descLURP {
         p:first-child::first-letter {
-            color: #ecbb27;
+            color: #d0a41f;
         }
 
         .talk.innocence {
-            color: #ecbb27;
+            color: #d0a41f;
         }
     }
 }
