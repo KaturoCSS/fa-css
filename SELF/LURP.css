@@ -262,7 +262,7 @@
 }
 
 /* COLORS INNOCENCE */
-
+/* 
 .cLURP.innocence {
     color: #825500;
     background: #fff2cb;
@@ -271,6 +271,29 @@
         span {
             filter: hue-rotate(360deg);
             -webkit-filter: hue-rotate(360deg);
+        }
+    }
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #ecbb27;
+        }
+
+        .talk.innocence {
+            color: #ecbb27;
+        }
+    }
+} */
+
+
+.cLURP.innocence {
+    color: #042826;
+    background: #6aada9;
+
+    .titleLURP {
+        span {
+            filter: hue-rotate(150deg);
+            -webkit-filter: hue-rotate(150deg);
         }
     }
 
