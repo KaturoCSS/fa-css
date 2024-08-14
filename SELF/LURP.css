@@ -264,8 +264,8 @@
 /* COLORS INNOCENCE */
 
 .cLURP.innocence {
-    color: #042826;
-    background: #6aada9;
+    color: #825500;
+    background: #fff2cb;
 
     .titleLURP {
         span {
@@ -276,11 +276,11 @@
 
     .descLURP {
         p:first-child::first-letter {
-            color: #01766e;
+            color: #ecbb27;
         }
 
         .talk.innocence {
-            color: #ffdb6d;
+            color: #ecbb27;
         }
     }
 }
