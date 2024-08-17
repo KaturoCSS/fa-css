@@ -50,7 +50,7 @@
         text-align: justify;
         transition: all 0.3s;
 
-        p {
+        p, td {
             font: 400 1em/1.5 "Neuton";
             font-size: 15px;
             line-height: 1.5;
