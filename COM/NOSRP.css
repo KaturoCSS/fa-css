@@ -49,12 +49,15 @@
     .descNOSRP{
         text-align: justify;
         transition: all 0.3s;
-        font-family: "Neuton" !important;
         font: 400 1em/1.5 "Neuton";
         font-size: 15px;
         line-height: 1.5;
         letter-spacing: 0.3px;
         word-spacing: 2px;
+
+        p {
+            font: 400 1em/1.5 "Neuton";
+        }
     }
 
     @media screen and (max-width:600px){
