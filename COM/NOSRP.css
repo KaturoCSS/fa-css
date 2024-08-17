@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+
+
+.cNOSRP {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 560px;
+    padding: 20px;
+    color: #12223D;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    .headerNOSRP {
+        border-bottom: 4px double rgba(0,0,0,.25);
+
+        img {
+            width: 600px;
+            height: auto;
+        }
+    }
+
+    .titleNOSRP {
+        font-size: 35px;
+        text-align: center;
+        margin: 0;
+        letter-spacing: .5em;
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        font-family: "Dancing Script", cursive;
+        letter-spacing: 0;
+        margin-bottom: -62px;
+        position: relative;
+        color: #CFE0E8;
+    }
+
+    .infoNOSRP{
+        display: flex;
+        padding: 10px 0px;
+        font-family: "Kalam", cursive;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .descNOSRP{
+        text-align: justify;
+        transition: all 0.3s;
+
+        p {
+            font: 400 1em/1.5 "Neuton";
+            font-size: 15px;
+            line-height: 1.5;
+            letter-spacing: 0.3px;
+            word-spacing: 2px;
+
+            span {
+                -webkit-text-stroke-width: 0px;
+            }
+        }
+    }
+
+    @media screen and (max-width:600px){
+        .descNOSRP{
+            width: 100%;
+            padding: 1rem;
+        }
+    }
+
+}
+
+.signaNOSRP {
+    content: url(https://i.ibb.co/Hh2BFhL/img-0011.png);
+    height: 30px;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
