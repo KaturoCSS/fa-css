@@ -33,6 +33,13 @@
         content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/aspic/AMANDE%20LOKISANSTEXTE.png?raw=true)
     }
 
+    
+    img.aspic {
+        height: 410px;
+        width: auto;
+        content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/aspic/AMANDE%20LOKISANSTEXTE.png?raw=true)
+    }
+
     img.sauvage {
         width: 600px;
         height: auto;
@@ -184,8 +191,8 @@
 /* COLORS LOKI */
 
 .cLURP.loki {
-    color: #083516;
-    background: #94bd90;
+    color: #033312;
+    background: #82b57d;
     /* Old background : 90bd9f */
 
     img.loki {
@@ -196,8 +203,8 @@
 
     .titleLURP {
         span {
-            filter: hue-rotate(120deg);
-            -webkit-filter: hue-rotate(120deg);
+            filter: hue-rotate(65deg);
+            -webkit-filter: hue-rotate(65deg);
         }
     }
 
