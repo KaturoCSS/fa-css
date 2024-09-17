@@ -277,8 +277,8 @@
 /* COLORS GUI */
 
 .cLURP.gui {
-    color: #042826;
-    background: #6aada9;
+    color: #011f20;
+    background: #99A7BE;
 
     img.gui {
         height: auto;
@@ -289,18 +289,18 @@
 
     .titleLURP {
         span {
-            filter: hue-rotate(150deg);
-            -webkit-filter: hue-rotate(150deg);
+            filter: hue-rotate(170deg) grayscale(0.8) brightness(1);
+            -webkit-filter: hue-rotate(170deg) grayscale(0.8) brightness(1);
         }
     }
 
     .descLURP {
         p:first-child::first-letter {
-            color: #01766e;
+            color: #59777e;
         }
 
         .talk.heros {
-            color: #01766e;
+            color: #59777e;
         }
     }
 }
