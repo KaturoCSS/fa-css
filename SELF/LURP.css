@@ -58,6 +58,12 @@
         content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/heros/h%C3%A9ros%20apprenti%20amande.png?raw=true)
     }
 
+    img.gui-apprentice {
+        height: 410px;
+        width: auto;
+        content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/heros/h%C3%A9ros%20apprenti%20amande.png?raw=true)
+    }
+
     img.innocence {
         width: 600px;
         height: auto;
@@ -247,8 +253,39 @@
 /* COLORS HEROS */
 
 .cLURP.heros {
+    color: #011f20;
+    background: #6aada9;
+
+    .titleLURP {
+        span {
+            filter: hue-rotate(150deg);
+            -webkit-filter: hue-rotate(150deg);
+        }
+    }
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #01766e;
+        }
+
+        .talk.heros {
+            color: #01766e;
+        }
+    }
+}
+
+/* COLORS GUI */
+
+.cLURP.gui {
     color: #042826;
     background: #6aada9;
+
+    img.loki {
+        height: auto;
+        width: 600px;
+        content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/gui/gui-entete-poli.png?raw=true)
+    }
+
 
     .titleLURP {
         span {
