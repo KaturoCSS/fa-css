@@ -64,6 +64,11 @@
         p.dialogue {
             font-family: "Homemade Apple", cursive;
             display: inline-flex;
+
+            span {
+                font-family: "Arial";
+                display: contents;
+            }
         }
 
         p.dialogue.gauche {
