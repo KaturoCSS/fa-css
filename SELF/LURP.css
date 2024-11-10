@@ -183,6 +183,12 @@
         content: url(https://www.zupimages.net/up/24/03/3g4b.png)
     }
 
+    img.lulu-post-horde {
+        height: auto;
+        width: 600px;
+        content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/luciole/luciole-header-mid.png?raw=true)
+    }
+
     .titleLURP {
         span {
             filter: hue-rotate(-130deg);
