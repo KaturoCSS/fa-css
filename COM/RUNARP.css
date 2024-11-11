@@ -76,7 +76,7 @@
             font-size: 12px;
             display: inline-flex;
 
-            span {
+            span.normal {
                 font-family: 'Roboto',sans-serif;
                 font-size: 12px;
                 display: contents;
