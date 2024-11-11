@@ -76,10 +76,13 @@
             font-size: 12px;
             display: inline-flex;
 
+            span {
+                display: contents;
+            }
+
             span.normal {
                 font-family: 'Roboto',sans-serif;
                 font-size: 12px;
-                display: contents;
             }
         }
 
