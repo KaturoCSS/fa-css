@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Itim&display=swap');
+
+.cPOURP {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 560px;
+    padding: 20px;
+    background: #869dc7; color: #1E3154;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.headerPOURP {
+    border: 1px solid rgba(0,0,0,.25);
+    border-width: 3px 0;
+    margin-bottom: 10px;
+
+    img {
+        width: 600px;
+        height: auto;
+    }
+}
+
+.titlePOURP {
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    font: 700 2.5em/1 "Charm", serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.44);
+    background: -webkit-linear-gradient(#1E3154, #495e7c); -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.moonPOURP {
+    align-self: end;
+    font-family: "Itim", cursive;
+    font-size: 0.7em;
+    opacity: 0.7;
+    background: #ffffff59;
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+.featPOURP{
+    display: flex;
+    padding: 10px 0px;
+    font-family: "Itim", cursive;
+    font-size: 0.8em;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.descPOURP{
+    text-align: justify;
+    width: 100%;
+    transition: all 0.3s;
+
+    p {
+        font: 400 1em/1.5 "Neuton";
+        font-size: 15px;
+        line-height: 1.5;
+        letter-spacing: 0.3px;
+        word-spacing: 2px;
+
+        span {
+            -webkit-text-stroke-width: 0px;
+        }
+    }
+}
+
+@media screen and (max-width:600px){
+    .descPOURP{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+.signaPOURP {
+    content: url(https://i.ibb.co/Hh2BFhL/img-0011.png);
+    height: 30px;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
