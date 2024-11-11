@@ -11,7 +11,8 @@
     color: black;
     background: linear-gradient(#e14c4d, #e5b491);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    font: 400 1em/1.5 "Arial"; font-size: 15px; line-height: 1.5; letter-spacing: 0.3px; word-spacing: 2px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
 
     .aRUNARP {
         width: 0;
