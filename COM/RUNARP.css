@@ -11,8 +11,6 @@
     color: black;
     background: linear-gradient(#e14c4d, #e5b491);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    font-family: 'Roboto',sans-serif;
-    font-size: 12px;
 
     .aRUNARP {
         width: 0;
@@ -69,10 +67,12 @@
 
         p.dialogue {
             font-family: "Homemade Apple", cursive;
+            font-size: 12px;
             display: inline-flex;
 
             span {
-                font-family: "Arial";
+                font-family: 'Roboto',sans-serif;
+                font-size: 12px;
                 display: contents;
             }
         }
@@ -81,11 +81,10 @@
             padding-left: 20px;
 
             img {
-                width: 50px !important;
-                height: 50px !important;
+                width: 50px;
+                height: 50px;
                 padding-right: 10px;
-                border-radius: 50%;
-                overflow: hidden;
+                clip-path: circle();
             }
         }
 
@@ -93,11 +92,10 @@
             padding-left: 20px;
 
             img {
-                width: 50px !important;
-                height: 50px !important;
+                width: 50px;
+                height: 50px;
                 padding-left: 10px;
-                border-radius: 50%;
-                overflow: hidden;
+                clip-path: circle();
             }
         }
     }
