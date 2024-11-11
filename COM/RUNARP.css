@@ -62,6 +62,11 @@
         text-align: justify;
         transition: all 0.3s;
 
+        p {
+            font-family: 'Roboto',sans-serif;
+            font-size: 12px;
+        }
+
         p.dialogue {
             font-family: "Homemade Apple", cursive;
             display: inline-flex;
