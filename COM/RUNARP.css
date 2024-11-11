@@ -64,6 +64,7 @@
     .descRUNARP{
         text-align: justify;
         transition: all 0.3s;
+        color: #464646;
 
         p {
             font-family: 'Roboto',sans-serif;
@@ -88,7 +89,7 @@
             img {
                 width: 50px;
                 height: 50px;
-                padding-right: 10px;
+                margin-right: 10px;
                 clip-path: circle();
             }
         }
@@ -99,7 +100,7 @@
             img {
                 width: 50px;
                 height: 50px;
-                padding-left: 10px;
+                margin-left: 10px;
                 clip-path: circle();
             }
         }
