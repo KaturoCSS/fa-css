@@ -40,7 +40,7 @@
         content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/aspic/AMANDE%20LOKISANSTEXTE.png?raw=true)
     }
 
-    
+
     img.aspic {
         height: 500px;
         width: auto;
@@ -286,6 +286,28 @@
         }
 
         .talk.heros {
+            color: #01766e;
+        }
+    }
+}
+
+.cLURP.aube {
+    color: #022b2d;
+    background: #6aada9;
+
+    .titleLURP {
+        span {
+            filter: hue-rotate(150deg);
+            -webkit-filter: hue-rotate(150deg);
+        }
+    }
+
+    .descLURP {
+        p:first-child::first-letter {
+            color: #01766e;
+        }
+
+        .talk.aube {
             color: #01766e;
         }
     }
