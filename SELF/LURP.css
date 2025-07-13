@@ -34,6 +34,13 @@
         content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/luciole/lulu-runa-warrior.PNG?raw=true)
     }
 
+    img.luciole-limbes {
+        width: 600px;
+        height: auto;
+        content: url(https://f2.toyhou.se/file/f2-toyhou-se/images/102512570_XuZFccxHvIyaRCi.png)
+    }
+
+
     img.loki {
         height: 410px;
         width: auto;
@@ -187,6 +194,12 @@
         height: auto;
         width: 600px;
         content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/luciole/luciole-header-mid.png?raw=true)
+    }
+
+    img.luciole-limbes {
+        height: auto;
+        width: 600px;
+        content: url(https://i.ibb.co/pB2GCJk5/600x300-jay2-luciole.pnge)
     }
 
     .titleLURP {
