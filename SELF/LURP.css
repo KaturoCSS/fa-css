@@ -237,6 +237,12 @@
         content: url(https://github.com/KaturoCSS/fa-css/blob/main/pictures/aspic/loki-new-header-mid.png?raw=true)
     }
 
+    img.loki-limbes {
+        height: auto;
+        width: 600px;
+        content: url(https://i.ibb.co/TDDGpKFd/600x300-loki-v2-jay.png)
+    }
+
     .titleLURP {
         span {
             filter: hue-rotate(65deg);
