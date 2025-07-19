@@ -10,6 +10,7 @@
     align-items: center;
     width: 560px;
     padding: 20px;
+    padding-top: 0px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 
     .cat-name {
@@ -252,11 +253,11 @@
 
     .descLURP {
         p:first-child::first-letter {
-            color: #259A49;
+            color: #11702f;
         }
 
         .talk.loki {
-            color: #259A49;
+            color: #11702f;
         }
     }
 }
